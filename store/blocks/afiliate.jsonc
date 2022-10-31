@@ -1,0 +1,623 @@
+{
+    "store.custom#afiliate": {
+      "blocks": [
+        "flex-layout.row#infoCardBanner",
+        "flex-layout.row#beneficios",
+        "flex-layout.row#kit",
+        "flex-layout.row#testimonios",
+        "flex-layout.row#nosotros"
+        
+      ]
+    },
+    
+    "flex-layout.row#infoCardBanner":{
+        "children": ["info-card#Banner"]
+    },
+    "info-card#Banner": {
+        "props": {
+            "id": "info-card-banner",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/banner-landing-page.png",
+            "subhead":"<a class='btnInfoCardAfiliate' href='https://xgs19r1914r.typeform.com/to/C3dBZXUQ' style='background: #E73743; padding: 15px; color: #fff; font-size: 24px; font-family: Gotham-Light; border-radius: 5px; text-decoration: none; width: 300px; text-align: center; appearance: button; -webkit-appearance: button-bevel; text-shadow: none!important;'>Afíliate ya</a>",
+            "callToActionUrl": "/",
+            "blockClass": "infoCardBlockAfiliate",
+            "textAlignment": "center",
+            "textMode" : "html",
+            "callToActionMode" : ""
+        }
+      },
+
+
+//beneficios onena
+"flex-layout.row#beneficios":{
+    "children":[
+        "flex-layout.col#benfcontenido"
+    ],"props":{
+        "blockClass":"rowbenef"
+    }
+},
+
+"flex-layout.col#benfcontenido":{
+    "children":[
+        "rich-text#beneficiosTitle",
+        "flex-layout.row#rowbenef1",
+        "flex-layout.row#rowbenef2",
+        "flex-layout.row#beneBtn"
+    ],"props":{
+        "blockClass":"colcont"
+    }
+},
+
+//inicio renglon 1 (columnas: GANANCIAS, PEDIDOS, PRODUCTOS)
+"flex-layout.row#rowbenef1":{
+    "children":[
+        "flex-layout.col#colbrnf1",
+        "flex-layout.col#colbrnf2",
+        "flex-layout.col#colbrnf3"
+    ],"props":{
+        "marginTop":3,
+        "marginBottom": 3    
+    }
+},
+// Inicio Columna 1: Ganancias    
+"flex-layout.col#colbrnf1":{
+    "children":[
+        "flex-layout.row#contcol1"
+    ],"props":{
+        "blockClass":"colcont"
+    }
+},"flex-layout.row#contcol1":{
+    "children":[
+        "image#col1",
+        "rich-text#col1"
+    ],"props":{
+        "blockClass":"rowcont"
+    }
+},
+"image#col1":{
+    "props":{
+        "src":"assets/ganancias.svg",
+        "maxHeight": 85
+    }
+},
+"rich-text#col1":{
+    "props":{
+        "blockClass":"textocontcol",
+        "text":"### Ttitulo \n **Texto**",
+        "textPosition": "center"
+    }
+},
+//Final columna 1 GANANCIAS
+//Inicio Columna 2 PEDIDOS
+"flex-layout.col#colbrnf2":{
+    "children":[
+        "flex-layout.row#contcol2"
+    ],"props":{
+        "blockClass":"colcont"
+    }
+},"flex-layout.row#contcol2":{
+    "children":[
+        "image#col2",
+        "rich-text#col2"
+    ],"props":{
+        "blockClass":"rowcont"
+    }
+},
+"image#col2":{
+    "props":{
+        "src":"assets/pedidos.svg",
+        "maxHeight": 85
+    }
+},
+"rich-text#col2":{
+    "props":{
+        "blockClass":"textocontcol",
+        "text":"### Ttitulo \n **Texto**",
+        "textPosition": "center"
+    }
+},
+//Final columna 2 PEDIDOS
+//Inicio columna 3 PRODUCTOS
+"flex-layout.col#colbrnf3":{
+    "children":[
+        "flex-layout.row#contcol3"
+    ],"props":{
+        "blockClass":"colcont"
+    }
+},"flex-layout.row#contcol3":{
+    "children":[
+        "image#col3",
+        "rich-text#col3"
+    ],"props":{
+        "blockClass":"rowcont"
+    }
+},
+"image#col3":{
+    "props":{
+        "src":"assets/productos.svg",
+        "maxHeight": 85
+    }
+},
+"rich-text#col3":{
+    "props":{
+        "blockClass":"textocontcol",
+        "text":"### Ttitulo \n **Texto**",
+        "textPosition": "center"
+    }
+},
+//Inicio columna 3 PRODUCTOS
+//--- final renglon 1
+//inicio renglon 2 (columnas: HORARIOS, INVERSION, PROMOCIONES)
+"flex-layout.row#rowbenef2":{
+"children":[
+    "flex-layout.col#colbrnf4",
+    "flex-layout.col#colbrnf5",
+    "flex-layout.col#colbrnf6"
+],"props":{
+    "marginTop":3,
+    "marginBottom": 3
+
+}
+},
+// Inicio Columna 1: HORARIOS    
+"flex-layout.col#colbrnf4":{
+"children":[
+    "flex-layout.row#contcol4"
+],"props":{
+    "blockClass":"colcont"
+}
+},"flex-layout.row#contcol4":{
+"children":[
+    "image#col4",
+    "rich-text#col4"
+],"props":{
+    "blockClass":"rowcont"
+}
+},
+"image#col4":{
+"props":{
+    "src":"assets/horarios.svg",
+    "maxHeight": 85
+}
+},
+"rich-text#col4":{
+"props":{
+    "blockClass":"textocontcol",
+    "text":"### Ttitulo \n **Texto**",
+    "textPosition": "center"
+}
+},
+//Final columna 1 HORARIOS
+//Inicio Columna 2 INVERSION
+"flex-layout.col#colbrnf5":{
+"children":[
+    "flex-layout.row#contcol5"
+],"props":{
+    "blockClass":"colcont"
+}
+},"flex-layout.row#contcol5":{
+"children":[
+    "image#col5",
+    "rich-text#col5"
+],"props":{
+    "blockClass":"rowcont"
+}
+},
+"image#col5":{
+"props":{
+    "src":"assets/inversion.svg",
+    "maxHeight": 85
+}
+},
+"rich-text#col5":{
+"props":{
+    "blockClass":"textocontcol",
+    "text":"### Ttitulo \n **Texto**",
+    "textPosition": "center"
+}
+},
+//Final columna 5 INVERSION
+//Inicio columna 6 PROMOCIONES
+"flex-layout.col#colbrnf6":{
+"children":[
+    "flex-layout.row#contcol6"
+],"props":{
+    "blockClass":"colcont"
+}
+},"flex-layout.row#contcol6":{
+"children":[
+    "image#col6",
+    "rich-text#col6"
+],"props":{
+    "blockClass":"rowcont"
+}
+},
+"image#col6":{
+"props":{
+    "src":"assets/promociones.svg",
+    "maxHeight": 85
+}
+},
+"rich-text#col6":{
+"props":{
+    "blockClass":"textocontcol",
+    "text":"### Ttitulo \n **Texto**",
+    "textPosition": "center"
+}
+},
+//Inicio columna 3 PROMOCIONES      
+
+    "rich-text#beneficiosTitle":{
+        "props":{
+            "text": "## BENEFICIOS",
+            "blockClass": "rowTitle",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER"//,
+            //"width": "100%"
+        }
+    },
+   
+    "flex-layout.row#beneBtn":{
+        "children":[
+            "rich-text#beneficiosBtn"
+        ]
+    },
+    "rich-text#beneficiosBtn":{
+        "props": {
+            "text": "[Quiero iniciar mi negocio](https://xgs19r1914r.typeform.com/to/C3dBZXUQ)",
+            "blockClass": "afiliateBtn",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER"//,
+            //"width": "100%"
+        },
+        "title" : "Boton"
+    },
+    "flex-layout.row#kit":{
+        "children":[
+            "flex-layout.col#colkits"
+        ]
+    },
+    "flex-layout.col#colkits":{
+        "props":{
+            "blockClass" : "rowKits"
+        },
+        "children":[
+            "rich-text#kitTitle",
+            "rich-text#kitText",
+            "flex-layout.row#catalogos",
+            "flex-layout.row#kitBtn"
+        ]
+    }, 
+    "rich-text#kitTitle":{
+        "props": {
+            "text": "## KIT DE ASESORES",
+            "blockClass": "rowTitle",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER",
+            "fullWidth": true
+        }
+    },
+    "rich-text#kitText":{
+        "props": {
+            "text": "# cada kit de catálogos incluye:",
+            "blockClass": "rowTitle",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER",
+            "fullWidth": true
+        }    
+    },
+    "flex-layout.row#catalogos":{  
+        "children":[
+            "flex-layout.col#colcat1",
+            "flex-layout.col#colcat2",
+            "flex-layout.col#colcat3",
+            "flex-layout.col#colcat4",
+            "flex-layout.col#colcat5"
+        ]
+    },
+    "flex-layout.col#colcat1":{
+        "children":[
+            "flex-layout.row#imgcat1",
+            "flex-layout.row#textcat1"
+            
+        ],"props":{
+            "blockClass":"contcat"
+        }
+    },
+    "flex-layout.row#imgcat1":{
+        "children":[
+            "image#catalogo1"
+        ],"props":{
+            "blockClass":"imgcolcat"
+        }
+    },
+    "image#catalogo1":{
+        "props":{
+            "src":"/arquivos/caba-clin.jpg",
+            "maxHeight":319
+        }
+    },
+    "flex-layout.row#textcat1":{
+        "children":[
+            "rich-text#contcat1"
+        ],"props":{
+            "blockClass": "contcatext"
+        }
+    },
+    "rich-text#contcat1":{
+        "props":{
+            "text":"#### tiutlo \n #### Temporada \n [Link]()",
+            "blockClass":"txtcat"
+        }
+    },
+    "flex-layout.col#colcat2":{
+        "children":[
+            "flex-layout.row#imgcat2",
+            "flex-layout.row#textcat2"
+            
+        ],"props":{
+            "blockClass":"contcat"
+        }
+    },
+    "flex-layout.row#imgcat2":{
+        "children":[
+            "image#catalogo2"
+        ],"props":{
+            "blockClass":"imgcolcat"
+        }
+    },
+    "image#catalogo2":{
+        "props":{
+            "src":"/arquivos/04_CLINICUS-Dama-OI-2021.jpg",
+            "maxHeight":319
+        }
+    },
+    "flex-layout.row#textcat2":{
+        "children":[
+            "rich-text#contcat2"
+        ],"props":{
+            "blockClass": "contcatext"
+        }
+    },
+    "rich-text#contcat2":{
+        "props":{
+            "text":"#### tiutlo \n #### Temporada \n [Link]()",
+            "blockClass":"txtcat"
+        }
+    },
+    "flex-layout.col#colcat3":{
+        "children":[
+            "flex-layout.row#imgcat3",
+            "flex-layout.row#textcat3"
+            
+        ],"props":{
+            "blockClass":"contcat"
+        }
+    },
+    "flex-layout.row#imgcat3":{
+        "children":[
+            "image#catalogo3"
+        ],"props":{
+            "blockClass":"imgcolcat"
+        }
+    },
+    "image#catalogo3":{
+        "props":{
+            "src":"/arquivos/01_Onena-OI-2021.jpg",
+            "maxHeight":319
+        }
+    },
+    "flex-layout.row#textcat3":{
+        "children":[
+            "rich-text#contcat3"
+        ],"props":{
+            "blockClass": "contcatext"
+        }
+    },
+    "rich-text#contcat3":{
+        "props":{
+            "text":"#### tiutlo \n #### Temporada \n [Link]()",
+            "blockClass":"txtcat"
+        }
+    },
+
+
+    "flex-layout.col#colcat4":{
+        "children":[
+            "flex-layout.row#imgcat4",
+            "flex-layout.row#textcat4"
+            
+        ],"props":{
+            "blockClass":"contcat"
+        }
+    },
+    "flex-layout.row#imgcat4":{
+        "children":[
+            "image#catalogo4"
+        ],"props":{
+            "blockClass":"imgcolcat"
+        }
+    },
+    "image#catalogo4":{
+        "props":{
+            "src":"/arquivos/01_Juve-OI-2021.jpg",
+            "maxHeight":319
+        }
+    },
+    "flex-layout.row#textcat4":{
+        "children":[
+            "rich-text#contcat4"
+        ],"props":{
+            "blockClass": "contcatext"
+        }
+    },
+    "rich-text#contcat4":{
+        "props":{
+            "text":"#### tiutlo \n #### Temporada \n [Link]()",
+            "blockClass":"txtcat"
+        }
+    },
+    "flex-layout.col#colcat5":{
+        "children":[
+            "flex-layout.row#imgcat2",
+            "flex-layout.row#textcat2"
+            
+        ],"props":{
+            "blockClass":"contcat"
+        }
+    },
+    "flex-layout.row#imgcat5":{
+        "children":[
+            "image#catalogo5"
+        ],"props":{
+            "blockClass":"imgcolcat"
+        }
+    },
+    "image#catalogo5":{
+        "props":{
+            "src":"/arquivos/04_CLINICUS-Dama-OI-2021.jpg",
+            "maxHeight":319
+        }
+    },
+    "flex-layout.row#textcat5":{
+        "children":[
+            "rich-text#contcat5"
+        ],"props":{
+            "blockClass": "contcatext"
+        }
+    },
+    "rich-text#contcat5":{
+        "props":{
+            "text":"#### tiutlo \n #### Temporada \n [Link]()",
+            "blockClass":"txtcat"
+        }
+    },
+    "flex-layout.row#kitBtn":{
+        "children":[
+            "rich-text#kitficiosBtn"
+        ]
+    },
+    "rich-text#kitficiosBtn":{
+        "props": {
+            "text": "[Quiero mis catálogos](https://xgs19r1914r.typeform.com/to/C3dBZXUQ)",
+            "blockClass": "afiliateBtn",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER"//,
+            //"width": "100%"
+        },
+        "title" : "Boton"
+    },
+    "flex-layout.row#testimonios":{
+        "props":{
+            "blockClass": "testCol"
+        },
+        "children":[
+            "flex-layout.col#coltestimonios"
+        ]
+    },
+    "flex-layout.col#coltestimonios":{
+        "children":[
+            "rich-text#testTitle",
+            "rich-text#testText",
+            "flex-layout.row#video"
+        ]
+    },
+    "rich-text#testTitle":{
+        "props": {
+            "text": "## TESTIMONIOS",
+            "blockClass": "rowTitle",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER",
+            "fullWidth": true
+        }
+    },
+    "rich-text#testText":{
+        "props": {
+            "text": "Asesores ONENA cuentan cómo han vivido la experiencia de manejar sus propios negocios a través de la venta por catálogo de ONENA.",
+            "blockClass": "rowTitle",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#video":{
+        "props":{
+            "blockClass": "videoCont"
+        },
+        "children":[
+            "video#afiliate"
+        ]
+    },
+    "video#afiliate": {
+        "props": {
+          "src": "https://youtu.be/ly1Ip_BiLDI",
+          "width": "70%",
+          "height": "70%"
+        }
+      },
+    "flex-layout.row#nosotros":{
+        "children":[
+            "flex-layout.col#colnosotros"
+        ]
+    },
+    "flex-layout.col#colnosotros":{
+        "children":[
+        "rich-text#nosotrosTitle",
+        "flex-layout.row#nos"
+        ]
+    },
+    "rich-text#nosotrosTitle":{
+        "props": {
+            "text": "## NOSOTROS",
+            "blockClass": "rowTitle",
+            "textAlignment" : "CENTER",
+            "textPosition" : "CENTER",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#nos":{
+        "children": [
+            "image#mobile-phone",
+            "flex-layout.col#text-nosotros"
+          ],
+          "props": {
+            "blockclass": "textColumn",
+            "preventVerticalStretch": true
+          }
+        },
+      
+  "flex-layout.col#text-nosotros": {
+    "children": [
+      "rich-text#title-nosotros",
+      "rich-text#nosotros"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+        "rich-text#title-nosotros": {
+          "props": {
+            "text":
+            "## ELABORANDO EL MEJOR CALZADO",
+            "blockClass": "title"
+          }
+        },
+        "rich-text#nosotros": {
+            "props": {
+              "text": "Con un atractivo diseño y gran comodidad para compañarte en todo momento. ONENA diseña y desarrolla calzado para la mujer dinámica y actual que refleja en su rostro el bienestar y el descanso de caminar con seguridad y estilo día con día. Cada modelo cuenta con características especiales que lo diferencian de la competencia, brindando a nuestros clientes una amplia gama de opciones que se ajustan a todos los gustos.",
+              "blockClass": "nosotros"
+            }
+          },
+        "image#mobile-phone": {
+          "props": {
+            "src": "assets/nosotros-cat.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+          }
+        }
+    }
+  
+  

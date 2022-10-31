@@ -1,0 +1,319 @@
+:global(.vtex-store-drawer-0-x-menuIcon){
+  fill: #DB7E30;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--categorySucursales){
+  font-family: 'GothamMedium';
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-left: 0px;
+}
+
+/* Icono Localizacion menu */
+:global(.vtex-menu-2-x-styledLinkContainer--categorySucursales){
+  /* position:relative; */
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path  d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>')  no-repeat center left / contain;
+  background-repeat: no-repeat;
+  background-position:  -68px;
+  background-size: 119% 64%;
+  padding-left: 50px;
+  padding-right: 28px;
+}
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--categoryFavoritos){
+  font-family: 'GothamMedium';
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-left: 0px;
+}
+
+/* Icono Localizacion menu */
+:global(.vtex-menu-2-x-styledLinkContainer--categoryFavoritos){
+  /* position:relative; */
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M349.6 64c-36.4 0-70.7 16.7-93.6 43.9C233.1 80.7 198.8 64 162.4 64 97.9 64 48 114.2 48 179.1c0 79.5 70.7 143.3 177.8 241.7L256 448l30.2-27.2C393.3 322.4 464 258.6 464 179.1 464 114.2 414.1 64 349.6 64zm-80.8 329.3l-4.2 3.9-8.6 7.8-8.6-7.8-4.2-3.9c-50.4-46.3-94-86.3-122.7-122-28-34.7-40.4-63.1-40.4-92.2 0-22.9 8.4-43.9 23.7-59.3 15.2-15.4 36-23.8 58.6-23.8 26.1 0 52 12.2 69.1 32.5l24.5 29.1 24.5-29.1c17.1-20.4 43-32.5 69.1-32.5 22.6 0 43.4 8.4 58.7 23.8 15.3 15.4 23.7 36.5 23.7 59.3 0 29-12.5 57.5-40.4 92.2-28.8 35.7-72.3 75.7-122.8 122z" fill="%23DB7E30"/> </svg>')  no-repeat center left / contain;
+  background-repeat: no-repeat;
+  background-position:  -54px;
+  background-size: 132% 69%;
+  padding-left: 60px;
+  margin-right: 0px;
+  margin-right: 15px;
+}
+
+
+.styledLink--categoryDama{
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-family: 'Gotham-Bold' !important;
+  text-transform: uppercase;
+}
+
+.styledLink--categoryCaballero{
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-family: 'Gotham-Bold' !important;
+  text-transform: uppercase;
+}
+
+.styledLink--categoryClinicos{
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-family: 'Gotham-Bold' !important;
+  text-transform: uppercase;
+}
+
+
+
+.styledLink--categoryCatalogos{
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-family: 'Gotham-Bold' !important;
+  text-transform: uppercase;
+}
+
+.styledLink--categoryOutlet{
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-family: 'Gotham-Bold' !important;
+  text-transform: uppercase;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--categoryDama){
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--categoryCaballero){
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--categoryClinicos){
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--categoryCatalogos){
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--categoryOutlet){
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-menuCategorias){
+  height: 54px;
+  background-color: #F5F5F5;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--iconMoreProductDama){
+  color: #E73743;
+  display:inline-block;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M349.6 64c-36.4 0-70.7 16.7-93.6 43.9C233.1 80.7 198.8 64 162.4 64 97.9 64 48 114.2 48 179.1c0 79.5 70.7 143.3 177.8 241.7L256 448l30.2-27.2C393.3 322.4 464 258.6 464 179.1 464 114.2 414.1 64 349.6 64zm-80.8 329.3l-4.2 3.9-8.6 7.8-8.6-7.8-4.2-3.9c-50.4-46.3-94-86.3-122.7-122-28-34.7-40.4-63.1-40.4-92.2 0-22.9 8.4-43.9 23.7-59.3 15.2-15.4 36-23.8 58.6-23.8 26.1 0 52 12.2 69.1 32.5l24.5 29.1 24.5-29.1c17.1-20.4 43-32.5 69.1-32.5 22.6 0 43.4 8.4 58.7 23.8 15.3 15.4 23.7 36.5 23.7 59.3 0 29-12.5 57.5-40.4 92.2-28.8 35.7-72.3 75.7-122.8 122z" fill="%23E73743"/> </svg>')  no-repeat center left / contain;
+  background-repeat: no-repeat;
+  background-position:  0px;
+  background-size: 100% 100%;
+  padding-left: 60px;
+  margin-right: 0px;
+  margin-right: 15px;
+  color: #E73743;
+}
+
+:global(.vtex-login-2-x-label){
+  font-family: 'GothamMedium';
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-left: 0px;
+  text-transform: capitalize;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imgArrowMegaMenu){
+  margin-top: 60px;
+}
+
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1079.98px) {
+}
+
+
+@media (max-width: 1025.98px) {
+  /* :global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before{
+      padding-top: 12px;
+  } */
+
+  :global(.vtex-menu-2-x-styledLinkContent--categoryClinicos){
+    margin-left: 24px!important;
+    font-family: 'Gotham-Bold'!important;
+    font-size: 16px!important;
+    letter-spacing: 0px!important;
+    text-transform: uppercase!important;
+    color: #3f3f40!important;
+    margin-left: 0px!important;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin-left: 24px;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContainer--categoryClinicos){
+      padding-left: 6px!important;
+      padding-right: 0px!important;
+  }
+
+
+
+
+}
+
+/*Cambio de vtex de desktop a movil*/
+@media (max-width: 1025.00px) {
+
+  :global(.vtex-login-2-x-label){
+    display: none;
+  }
+  .menuContainer--category-menuFavoritos
+    :global(.vtex-menu-2-x-menuItem)
+      :global(.vtex-menu-2-x-styledLinkContainer)
+        :global(.vtex-menu-2-x-styledLink--categoryFavoritos)
+          :global(.vtex-menu-2-x-styledLinkContent){
+            display: none;
+  }
+
+  .menuContainerNav--category-menuMobileFavoritos{
+    display:inline-block ;
+    /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M349.6 64c-36.4 0-70.7 16.7-93.6 43.9C233.1 80.7 198.8 64 162.4 64 97.9 64 48 114.2 48 179.1c0 79.5 70.7 143.3 177.8 241.7L256 448l30.2-27.2C393.3 322.4 464 258.6 464 179.1 464 114.2 414.1 64 349.6 64zm-80.8 329.3l-4.2 3.9-8.6 7.8-8.6-7.8-4.2-3.9c-50.4-46.3-94-86.3-122.7-122-28-34.7-40.4-63.1-40.4-92.2 0-22.9 8.4-43.9 23.7-59.3 15.2-15.4 36-23.8 58.6-23.8 26.1 0 52 12.2 69.1 32.5l24.5 29.1 24.5-29.1c17.1-20.4 43-32.5 69.1-32.5 22.6 0 43.4 8.4 58.7 23.8 15.3 15.4 23.7 36.5 23.7 59.3 0 29-12.5 57.5-40.4 92.2-28.8 35.7-72.3 75.7-122.8 122z" fill="%23DB7E30"/></svg>')  no-repeat center left / contain; */
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 122% 57%;
+    padding-left: 0px;
+    background: transparent;
+  }
+
+
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before{
+      background-position: 0px;
+      background-size: 109% 99%;
+      padding-left: 20px;
+      padding-top:  7px;
+      padding-bottom: 17px;
+      padding-right: 0px !important;
+      display: none;
+  }
+
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+  :global(.vtex-button__label){
+      padding-left: 0px !important;
+  }
+
+
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--slidercategoriasMovil){
+    display:inline-block ;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M349.6 64c-36.4 0-70.7 16.7-93.6 43.9C233.1 80.7 198.8 64 162.4 64 97.9 64 48 114.2 48 179.1c0 79.5 70.7 143.3 177.8 241.7L256 448l30.2-27.2C393.3 322.4 464 258.6 464 179.1 464 114.2 414.1 64 349.6 64zm-80.8 329.3l-4.2 3.9-8.6 7.8-8.6-7.8-4.2-3.9c-50.4-46.3-94-86.3-122.7-122-28-34.7-40.4-63.1-40.4-92.2 0-22.9 8.4-43.9 23.7-59.3 15.2-15.4 36-23.8 58.6-23.8 26.1 0 52 12.2 69.1 32.5l24.5 29.1 24.5-29.1c17.1-20.4 43-32.5 69.1-32.5 22.6 0 43.4 8.4 58.7 23.8 15.3 15.4 23.7 36.5 23.7 59.3 0 29-12.5 57.5-40.4 92.2-28.8 35.7-72.3 75.7-122.8 122z" fill="%23E73743"/></svg>')  no-repeat center left / contain;
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 122% 57%;
+    padding-left: 0px;
+  }
+
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button){
+    visibility:visible;
+    content: "";
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>')  no-repeat center center / contain;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 90% 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-right: -35px; */
+  }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 885.98px) {
+}
+
+@media (max-width: 767.00px) {
+}
+
+@media (max-width: 705.98px) {
+}
+
+@media (max-width: 575.98px) {
+
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before{
+      display: none;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 527.98px) {
+}
+
+/* Extra very small devices resolution (portrait phones, less than 321px) */
+@media (max-width: 320.98px) {
+}
+
+
+
+/*
+@media not all and (min-resolution:.001dpcm) {
+@supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    :global(.vtex-menu-2-x-styledLinkContent--categorySucursales){
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+
+    :global(.vtex-menu-2-x-styledLinkContainer--categorySucursales){
+      background-size: 119% 54%;
+      padding-left: 50px;
+      padding-right: 28px;
+    }
+
+
+    :global(.vtex-menu-2-x-styledLinkContent--categoryFavoritos){
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+
+
+    :global(.vtex-menu-2-x-styledLinkContainer--categoryFavoritos){
+      background-size: 132% 59%;
+    }
+
+    :global(.vtex-login-2-x-label){
+      padding-top: 10px;
+      padding-bottom: 0px;
+      margin-left: 6px;
+    }
+
+
+    :global(.vtex-menu-2-x-styledLinkContent--categoryFavoritos){
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+  }
+}
+
+*/

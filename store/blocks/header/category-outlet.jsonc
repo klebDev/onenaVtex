@@ -1,0 +1,157 @@
+{
+  "flex-layout.col#cat1Outlet": {
+    "title": "Categoría 1",
+    "children": [
+      "image#cat1Outlet",
+      "rich-text#cat1Outlet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat1Outlet": {
+    "title": "Imagen cat1 C",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/Outlet-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat1Outlet": {
+    "title": "Texto cat 1 Outlet",
+    "props": {
+      "text": "CATEGORIA Outlet",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+
+  "flex-layout.col#cat2Outlet": {
+    "title": "Categoría 2",
+    "children": [
+      "image#cat2Outlet",
+      "rich-text#cat2Outlet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat2Outlet": {
+    "title": "Imagen cat2",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/Outlet-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat2Outlet": {
+    "title": "Texto cat 2",
+    "props": {
+      "text": "CATEGORIA Outlet",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+
+  "flex-layout.col#cat3Outlet": {
+    "title": "Categoría 3",
+    "children": [
+      "image#cat3Outlet",
+      "rich-text#cat3Outlet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat3Outlet": {
+    "title": "Imagen cat3",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/Outlet-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat3Outlet": {
+    "title": "Texto cat 3",
+    "props": {
+      "text": "CATEGORIA Outlet",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+  "flex-layout.col#cat4Outlet": {
+    "title": "Categoría 4",
+    "children": [
+      "image#cat4Outlet",
+      "rich-text#cat4Outlet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat4Outlet": {
+    "title": "Imagen cat4",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/Outlet-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat4Outlet": {
+    "title": "Texto cat 4",
+    "props": {
+      "text": "CATEGORIA Outlet",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+  "flex-layout.col#cat5Outlet": {
+    "title": "Categoría 5",
+    "children": [
+      "image#cat5Outlet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventVerticalStretch" : false,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    }
+  },
+
+  "image#cat5Outlet": {
+    "title": "Imagen cat4",
+    "props": {
+      "height": 35,
+      "with" : 35,
+      "src": "/arquivos/ionic-ios-arrow.svg",
+      "link": {
+        "url": "/outlet"
+      },
+      "blockClass": "imgArrowMegaMenu"
+    }
+  }
+}

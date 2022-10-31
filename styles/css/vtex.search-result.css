@@ -1,0 +1,253 @@
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos del header  */
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+    :global(.vtex-input-prefix__group){
+      border: none;
+      height: 35px;
+      width: 540px;
+      /* margin-top: 4px; */
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+:global(.vtex-search-2-x-itemListLink){
+  /* background-color: red; */
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-styleguide-9-x-input){
+    border-top: 1px solid #707070;
+    border-left: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    opacity: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:transparent;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+    :global(.vtex-styleguide-9-x-input){
+      color: #292929;
+      font-size: 14px;
+      letter-spacing: 0px;
+      font-weight: 10;
+      font-family: 'Gotham-Light';
+}
+
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+    :global(.vtex-styleguide-9-x-input)::placeholder{
+      color: #292929;
+      font-size: 14px;
+      letter-spacing: 0px;
+      font-weight: 10;
+      font-family: 'Gotham-Light';
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+    :global(.vtex-input__suffix){
+      border-top: 1px solid #707070 !important;
+      border-right: 1px solid #707070;
+      border-bottom: 1px solid #707070;
+      opacity: 1;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete){
+  width:  152% !important;
+}
+
+/* Icono Luapa */
+:global(.vtex-store-components-3-x-searchIcon){
+  visibility: hidden;
+}
+
+:global(.vtex-search-2-x-itemListTitle){
+  content: " ";
+  visibility: hidden;
+  padding-bottom: 30px;
+}
+
+:global(.vtex-search-2-x-itemListTitle)::before{
+  content: "SUGERENCIAS";
+  visibility: visible;
+}
+
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+  :global(.vtex-search-2-x-productBrand){
+    color: #292929;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-family: 'GothamBook';
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+  :global(.vtex-search-2-x-priceContainer){
+    color: #292929;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-family: 'GothamMedium';
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+  :global(.vtex-search-2-x-tileListTitle){
+    color: #292929;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-family: 'GothamMedium';
+}
+
+
+:global(.vtex-search-2-x-biggy-autocomplete){
+  padding-top: 3px;
+}
+
+/* Icono Luapa */
+:global(.vtex-store-components-3-x-searchBarIcon){
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M337.509 305.372h-17.501l-6.571-5.486c20.791-25.232 33.922-57.054 33.922-93.257C347.358 127.632 283.896 64 205.135 64 127.452 64 64 127.632 64 206.629s63.452 142.628 142.225 142.628c35.011 0 67.831-13.167 92.991-34.008l6.561 5.487v17.551L415.18 448 448 415.086 337.509 305.372zm-131.284 0c-54.702 0-98.463-43.887-98.463-98.743 0-54.858 43.761-98.742 98.463-98.742 54.7 0 98.462 43.884 98.462 98.742 0 54.856-43.762 98.743-98.462 98.743z" fill="%23DB7E30"/></svg>')  no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size: 131% 100%;
+  text-align: center;
+}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer--search-bar--filled)
+    :global(.vtex-store-components-3-x-searchBarIcon){
+      display:flex ;
+      background: transparent;
+      background-repeat: no-repeat;
+}
+
+:global(.vtex-search-result-3-x-filterItem)
+:global(.vtex-checkbox__container){
+  align-self: center;
+}
+
+:global(.vtex-search-result-3-x-gallery--grid){
+  padding-left: 76px;
+}
+
+:global(.vtex-search-result-3-x-searchResultContainer){
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+  :global(.vtex-search-2-x-tileListTitle){
+    color: #292929;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-family: 'GothamMedium';
+}
+
+
+@media (max-width: 1400.00px) {
+  :global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+      :global(.vtex-input-prefix__group){
+        width: 440px;
+  }
+
+  :global(.vtex-search-result-3-x-searchResultContainer){
+    padding-left:  56px;
+    padding-right:  56px;
+  }
+}
+
+@media (max-width: 1250.98px) {
+  :global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+      :global(.vtex-input-prefix__group){
+        width: 340px;
+  }
+
+  :global(.vtex-search-result-3-x-searchResultContainer){
+    padding-left:  16px;
+    padding-right:  16px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  :global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+      :global(.vtex-input-prefix__group){
+        width: auto;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1079.98px) {
+}
+
+/*Cambio de vtex de desktop a movil*/
+@media (max-width: 1025.00px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 885.98px) {
+}
+
+@media (max-width: 767.00px) {
+}
+
+@media (max-width: 705.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 527.98px) {
+}
+
+/* Extra very small devices resolution (portrait phones, less than 321px) */
+@media (max-width: 320.98px) {
+}

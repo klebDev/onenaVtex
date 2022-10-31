@@ -1,0 +1,634 @@
+{
+  "store.custom#preguntasFrecuentes":{
+    "blocks" : [
+      "responsive-layout.desktop#preguntasFrecuentes",
+      "responsive-layout.tablet#preguntasFrecuentes",
+      "responsive-layout.phone#preguntasFrecuentes"
+    ]
+  },
+
+  "responsive-layout.desktop#preguntasFrecuentes":{
+    "children":[
+      "rich-text#titlePreguntasFrecuentes",
+      "rich-text#block1Subtitle1PreguntasFrecuentes",
+      "rich-text#block1Heading1PreguntasFrecuentes",
+      "rich-text#block1Text1PreguntasFrecuentes",
+
+      "rich-text#block1Heading2PreguntasFrecuentes",
+      "rich-text#block1Text2PreguntasFrecuentes",
+
+      "rich-text#block1Heading3PreguntasFrecuentes",
+      "rich-text#block1Text3PreguntasFrecuentes",
+
+      "rich-text#block1Heading4PreguntasFrecuentes",
+      "rich-text#block1Text4PreguntasFrecuentes",
+
+      "rich-text#block1Heading5PreguntasFrecuentes",
+      "rich-text#block1Text5PreguntasFrecuentes",
+
+      "rich-text#block1Heading6PreguntasFrecuentes",
+      "rich-text#block1Text6PreguntasFrecuentes",
+
+      "rich-text#block2Subtitle1PreguntasFrecuentes",
+      "rich-text#block2Heading1PreguntasFrecuentes",
+      "rich-text#block2Text1PreguntasFrecuentes",
+
+      "rich-text#block2Heading2PreguntasFrecuentes",
+      "rich-text#block2Text2PreguntasFrecuentes",
+
+      "rich-text#block2Heading3PreguntasFrecuentes",
+      "rich-text#block2Text3PreguntasFrecuentes",
+
+
+      "rich-text#block3Subtitle1PreguntasFrecuentes",
+      "rich-text#block3Heading1PreguntasFrecuentes",
+      "rich-text#block3Text1PreguntasFrecuentes",
+
+
+      "rich-text#block4Subtitle1PreguntasFrecuentes",
+      "rich-text#block4Heading1PreguntasFrecuentes",
+      "rich-text#block4Text1PreguntasFrecuentes",
+
+
+      "rich-text#block4Heading2PreguntasFrecuentes",
+      "rich-text#block4Text2PreguntasFrecuentes",
+
+      "rich-text#block4Heading3PreguntasFrecuentes",
+      "rich-text#block4Text3PreguntasFrecuentes",
+
+      "rich-text#block4Heading4PreguntasFrecuentes",
+      "rich-text#block4Text4PreguntasFrecuentes",
+
+
+
+      "rich-text#block5Subtitle1PreguntasFrecuentes",
+      "rich-text#block5Heading1PreguntasFrecuentes",
+      "rich-text#block5Text1PreguntasFrecuentes",
+
+      "rich-text#block5Heading2PreguntasFrecuentes",
+      "rich-text#block5Text2PreguntasFrecuentes",
+
+      "rich-text#block5Heading3PreguntasFrecuentes",
+      "rich-text#block5Text3PreguntasFrecuentes",
+
+      "rich-text#block5Heading4PreguntasFrecuentes",
+      "rich-text#block5Text4PreguntasFrecuentes"
+
+
+
+    ]
+  },
+
+  "responsive-layout.tablet#preguntasFrecuentes":{
+    "children":[
+      "rich-text#titlePreguntasFrecuentes",
+      "rich-text#block1Subtitle1PreguntasFrecuentes",
+      "rich-text#block1Heading1PreguntasFrecuentes",
+      "rich-text#block1Text1PreguntasFrecuentes",
+
+      "rich-text#block1Heading2PreguntasFrecuentes",
+      "rich-text#block1Text2PreguntasFrecuentes",
+
+      "rich-text#block1Heading3PreguntasFrecuentes",
+      "rich-text#block1Text3PreguntasFrecuentes",
+
+      "rich-text#block1Heading4PreguntasFrecuentes",
+      "rich-text#block1Text4PreguntasFrecuentes",
+
+      "rich-text#block1Heading5PreguntasFrecuentes",
+      "rich-text#block1Text5PreguntasFrecuentes",
+
+      "rich-text#block1Heading6PreguntasFrecuentes",
+      "rich-text#block1Text6PreguntasFrecuentes",
+
+      "rich-text#block2Subtitle1PreguntasFrecuentes",
+      "rich-text#block2Heading1PreguntasFrecuentes",
+      "rich-text#block2Text1PreguntasFrecuentes",
+
+      "rich-text#block2Heading2PreguntasFrecuentes",
+      "rich-text#block2Text2PreguntasFrecuentes",
+
+      "rich-text#block2Heading3PreguntasFrecuentes",
+      "rich-text#block2Text3PreguntasFrecuentes",
+
+
+      "rich-text#block3Subtitle1PreguntasFrecuentes",
+      "rich-text#block3Heading1PreguntasFrecuentes",
+      "rich-text#block3Text1PreguntasFrecuentes",
+
+
+      "rich-text#block4Subtitle1PreguntasFrecuentes",
+      "rich-text#block4Heading1PreguntasFrecuentes",
+      "rich-text#block4Text1PreguntasFrecuentes",
+
+
+      "rich-text#block4Heading2PreguntasFrecuentes",
+      "rich-text#block4Text2PreguntasFrecuentes",
+
+      "rich-text#block4Heading3PreguntasFrecuentes",
+      "rich-text#block4Text3PreguntasFrecuentes",
+
+      "rich-text#block4Heading4PreguntasFrecuentes",
+      "rich-text#block4Text4PreguntasFrecuentes",
+
+
+
+      "rich-text#block5Subtitle1PreguntasFrecuentes",
+      "rich-text#block5Heading1PreguntasFrecuentes",
+      "rich-text#block5Text1PreguntasFrecuentes",
+
+      "rich-text#block5Heading2PreguntasFrecuentes",
+      "rich-text#block5Text2PreguntasFrecuentes",
+
+      "rich-text#block5Heading3PreguntasFrecuentes",
+      "rich-text#block5Text3PreguntasFrecuentes",
+
+      "rich-text#block5Heading4PreguntasFrecuentes",
+      "rich-text#block5Text4PreguntasFrecuentes"
+
+
+    ]
+  },
+
+  "responsive-layout.phone#preguntasFrecuentes":{
+    "children":[
+      "rich-text#titlePreguntasFrecuentes",
+      "rich-text#block1Subtitle1PreguntasFrecuentes",
+      "rich-text#block1Heading1PreguntasFrecuentes",
+      "rich-text#block1Text1PreguntasFrecuentes",
+
+      "rich-text#block1Heading2PreguntasFrecuentes",
+      "rich-text#block1Text2PreguntasFrecuentes",
+
+      "rich-text#block1Heading3PreguntasFrecuentes",
+      "rich-text#block1Text3PreguntasFrecuentes",
+
+      "rich-text#block1Heading4PreguntasFrecuentes",
+      "rich-text#block1Text4PreguntasFrecuentes",
+
+      "rich-text#block1Heading5PreguntasFrecuentes",
+      "rich-text#block1Text5PreguntasFrecuentes",
+
+      "rich-text#block1Heading6PreguntasFrecuentes",
+      "rich-text#block1Text6PreguntasFrecuentes",
+
+      "rich-text#block2Subtitle1PreguntasFrecuentes",
+      "rich-text#block2Heading1PreguntasFrecuentes",
+      "rich-text#block2Text1PreguntasFrecuentes",
+
+      "rich-text#block2Heading2PreguntasFrecuentes",
+      "rich-text#block2Text2PreguntasFrecuentes",
+
+      "rich-text#block2Heading3PreguntasFrecuentes",
+      "rich-text#block2Text3PreguntasFrecuentes",
+
+
+      "rich-text#block3Subtitle1PreguntasFrecuentes",
+      "rich-text#block3Heading1PreguntasFrecuentes",
+      "rich-text#block3Text1PreguntasFrecuentes",
+
+
+      "rich-text#block4Subtitle1PreguntasFrecuentes",
+      "rich-text#block4Heading1PreguntasFrecuentes",
+      "rich-text#block4Text1PreguntasFrecuentes",
+
+
+      "rich-text#block4Heading2PreguntasFrecuentes",
+      "rich-text#block4Text2PreguntasFrecuentes",
+
+      "rich-text#block4Heading3PreguntasFrecuentes",
+      "rich-text#block4Text3PreguntasFrecuentes",
+
+      "rich-text#block4Heading4PreguntasFrecuentes",
+      "rich-text#block4Text4PreguntasFrecuentes",
+
+
+
+      "rich-text#block5Subtitle1PreguntasFrecuentes",
+      "rich-text#block5Heading1PreguntasFrecuentes",
+      "rich-text#block5Text1PreguntasFrecuentes",
+
+      "rich-text#block5Heading2PreguntasFrecuentes",
+      "rich-text#block5Text2PreguntasFrecuentes",
+
+      "rich-text#block5Heading3PreguntasFrecuentes",
+      "rich-text#block5Text3PreguntasFrecuentes",
+
+      "rich-text#block5Heading4PreguntasFrecuentes",
+      "rich-text#block5Text4PreguntasFrecuentes"
+    ]
+  },
+
+  "rich-text#titlePreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Preguntas Frecuentes",
+      "blockClass": "titlePreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block1Subtitle1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Envío",
+      "blockClass": "subTitlePreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block1Heading1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "1.- ¿Cómo puedo rastrear mi pedido?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block1Text1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Te enviaremos un correo electrónico con tu guía de rastreo una vez que tu orden esté en tránsito en un lapso máximo de 36 horas hábiles posteriores a tu compra.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block1Heading2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "2.- ¿Cuánto tiempo tarda en llegar mi calzado Onena?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block1Text2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tu orden será entregada en máximo cinco días hábiles y hasta 10 días hábiles si vives en una zona extendida o remota. Consulta la cobertura de este servicio según tu código postal. **Recuerda que las fechas son estimadas por nuestro proveedor de servicios logísticos y que los tiempos de entrega no aplican en pre ventas y periodos de alta demanda como Buen fin y Hot Sale.**",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block1Heading3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "3.- ¿Tienen zona limitada de envío?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block1Text3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "No, entregamos tu calzado Onena en toda la República Mexicana",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block1Heading4PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "4.- ¿Es necesario ser el titular de la compra para recibir mi orden?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block1Text4PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Si no estás disponible para recibir tu orden puede hacerlo alguien más; es necesario que nos proporciones el nombre de la persona que esté autorizada para recibir tu compra. **Es importante que tenga a la mano una identificación de carácter oficial al momento de la entrega, esta puede ser el INE, licencia de manejo o pasaporte**",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+   "rich-text#block1Heading5PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "5.- ¿Se pueden cambiar los datos de envío?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block1Text5PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Solo podremos cambiar la dirección de entrega siempre y cuando tu orden no haya sido enviada. Comunícate con nosotros lo antes posible para validar si es posible realizar el cambio.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block1Heading6PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "6.- ¿Puedo enviar mi pedido a una oficina?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block1Text6PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Si, podemos realizar el envío con este servicio siempre y cuando la oficina cuente con el servicio de recibimiento de paquetes. Es necesario comunicarte con nosotros para solicitarlo.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+
+  "rich-text#block2Subtitle1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Pago",
+      "blockClass": "subTitlePreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block2Heading1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "1.- ¿Qué métodos de pago manejan en Onena?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block2Text1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Aceptamos transacciones con tarjeta de crédito, débito VISA o Master Card y Paypal, SPEI y pagos en efectivo a través de tiendas de conveniencia.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block2Heading2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "2.- ¿Por qué mi orden se encuentra en validación?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block2Text2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Este proceso se realiza de manera aleatoria con el fin de confirmar la aceptación del cargo. Este mismo es avalado por BANXICO.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block2Heading3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "3.- ¿Cómo cancelar mi pedido?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block2Text3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- **Cancelación antes de enviar:** **Tu reembolso puede tomar hasta 48 horas hábiles.** Una vez que te notifiquemos que el proceso se está realizando, puede demorar hasta 30 días hábiles para que lo veas reflejado en tu estado de cuenta. \n- **Devolución:** Una vez que tu orden sea devuelta con nosotros y haya sido aceptada, comienza el tiempo de reembolso antes mencionado.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+
+  "rich-text#block3Subtitle1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Garantías",
+      "blockClass": "subTitlePreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block3Heading1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "1.- ¿Qué necesito para hacer válida mi garantía?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block3Text1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En caso de que tu calzado Onena tenga algún defecto (caso poco probable), **te solicitaremos dos evidencias fotográficas del defecto, las cuales tendrás que enviar al siguiente correo contacto@danzar.com.mx indicando tu número de orden.**",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block4Subtitle1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Devolución",
+      "blockClass": "subTitlePreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Heading1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "1.- ¿Cuánto tiempo tengo para devolver mi calzado?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Text1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Recuerda que se tienen 30 días naturales posteriores a realizar la compra para hacer una devolución por garantía y únicamente 5 días naturales por insatisfacción",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Heading2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "2.- ¿Cuánto cuesta devolver un producto Onena?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Text2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Todas las devoluciones son gratis siguiendo los pasos que se indican en la sección 'proceso para realizar una devolución'.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Heading3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "3.- ¿Cómo realizo una devolución?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Text3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Es necesario contactar a nuestro equipo de atención al cliente por alguno de los siguientes medios:** por mail a contacto@danzar.com.mx o por teléfono al  55 5383 6372 en CDMX y al 800 6342042 o WhatsApp al 722 631 0808. Después de validar y aprobar tu devolución te haremos llegar una guía de rastreo. Consulta todo el proceso en el apartado 'Proceso para realizar una devolución'.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Heading4PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "4.- ¿Puedo cancelar el proceso de devolución?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block4Text4PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Sí, siempre y cuando tu producto no esté en camino a nuestro almacén.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block5Subtitle1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Compra",
+      "blockClass": "subTitlePreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Heading1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "1.- ¿Cómo sé si mi orden está siendo procesada?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Text1PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Después de realizar tu compra recibirás la confirmación por correo electrónico. Si no recibes este correo dentro de las 3 horas posteriores a tu compra, es necesario que te comuniques con nosotros por los siguientes medios: **contacto@danzar.com.mx o por teléfono al 55 5383 6372 en CDMX y al 800 6342042 o WhatsApp al 722 631 0808.**",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block5Heading2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "2.- ¿Puedo cambiar de talla o modelo mi pedido?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Text2PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Sí,  contáctanos a través de **contacto@danzar.com.mx o por teléfono al 55 5383 6372 en CDMX y al 800 6342042 o WhatsApp al 722 631 0808.** Para solicitar un cambio en sucursal o Devolución para recompra en onena.mx",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+
+  "rich-text#block5Heading3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "3.- ¿Puedo realizar mi pedido por correo electrónico o por teléfono?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Text3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Claro que sí. Puedes comunicarte con nuestro equipo de telesales y con gusto te atenderemos. Por mail a **contacto@danzar.com.mx o por teléfono al 55 5383 6372 en CDMX y al 800 6342042.**",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Heading3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "4.- ¿Cómo puedo solicitar mi factura?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Text3PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Ponte en contacto con nuestro equipo de atención al cliente para que te enviemos tu factura. Recuerda que únicamente cuentas con 30 días naturales después de realizar tu compra para emitir la factura.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Heading4PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "5.- ¿Puedo vender calzado Onena?",
+      "blockClass": "headingPreguntasFrecuentes"
+    }
+  },
+
+  "rich-text#block5Text4PreguntasFrecuentes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "¡Claro! puedes afiliarte con nosotros y gozar todos los beneficios que tenemos para ti. Descubre cómo en el apartado 'Cómo afiliarme a Onena'.",
+      "blockClass": "textDescriptionPreguntasFrecuentes"
+    }
+  }
+
+
+}

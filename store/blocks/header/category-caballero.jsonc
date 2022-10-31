@@ -1,0 +1,157 @@
+{
+  "flex-layout.col#cat1Caballero": {
+    "title": "Categoría 1",
+    "children": [
+      "image#cat1Caballero",
+      "rich-text#cat1Caballero"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat1Caballero": {
+    "title": "Imagen cat1 C",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat1Caballero": {
+    "title": "Texto cat 1 Caballero",
+    "props": {
+      "text": "CATEGORIA CABALLERO",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+
+  "flex-layout.col#cat2Caballero": {
+    "title": "Categoría 2",
+    "children": [
+      "image#cat2Caballero",
+      "rich-text#cat2Caballero"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat2Caballero": {
+    "title": "Imagen cat2",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat2Caballero": {
+    "title": "Texto cat 2",
+    "props": {
+      "text": "CATEGORIA CABALLERO",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+
+  "flex-layout.col#cat3Caballero": {
+    "title": "Categoría 3",
+    "children": [
+      "image#cat3Caballero",
+      "rich-text#cat3Caballero"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat3Caballero": {
+    "title": "Imagen cat3",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat3Caballero": {
+    "title": "Texto cat 3",
+    "props": {
+      "text": "CATEGORIA CABALLERO",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+  "flex-layout.col#cat4Caballero": {
+    "title": "Categoría 4",
+    "children": [
+      "image#cat4Caballero",
+      "rich-text#cat4Caballero"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "image#cat4Caballero": {
+    "title": "Imagen cat4",
+    "props": {
+      "height": 218,
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat4Caballero": {
+    "title": "Texto cat 4",
+    "props": {
+      "text": "CATEGORIA CABALLERO",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+  "flex-layout.col#cat5Caballero": {
+    "title": "Categoría 5",
+    "children": [
+      "image#cat5Caballero"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventVerticalStretch" : false,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    }
+  },
+
+  "image#cat5Caballero": {
+    "title": "Imagen cat4",
+    "props": {
+      "height": 35,
+      "with" : 35,
+      "src": "/arquivos/ionic-ios-arrow.svg",
+      "link": {
+        "url": "/caballero"
+      },
+      "blockClass": "imgArrowMegaMenu"
+    }
+  }
+}

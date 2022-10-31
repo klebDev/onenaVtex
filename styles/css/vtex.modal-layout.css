@@ -1,0 +1,190 @@
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+.paper--quickview {
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #aaa;
+  padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 0 2.5rem 2rem;
+  overflow-x: hidden;
+}
+
+.triggerContainer--quickview {
+  padding: .75rem;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+.closeButton {
+  padding-right: 1rem;
+}
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}
+.vtex-store-footer-2-x-footerLayout{
+  background-color: #03044e;
+}
+:global(.vtex-store-components-3-x-container--newsletter){
+  background-color: #9AC8EB;
+  padding-top: 40px !important;
+  padding-bottom: 29px !important;
+  padding-left: 25px !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--metod2){
+  padding-right: 42px;
+  width: 70px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--logoPuntoCommerce){
+  width: 115px;
+}
+
+:global(.vtex-store-components-3-x-label--newsletter){
+  font-family: 'GothamBook';
+  font-size: 18px;
+  text-align: left;
+  padding-right: 80px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagos){
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ffffff;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pagos){
+  padding-left: 100px;
+  padding-right: 100px;
+    align-items: center;
+}
+:global(.vtex-store-components-3-x-buttonContainer){
+  padding-top: 0px;
+  background: #E73743;
+}
+:global(.vtex-button){
+  margin-right: 0px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletter){
+  padding-top: 5px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletter)
+  :global(.vtex-input-prefix__group){
+      height: 28px;
+      border-color: #ffffff;
+}
+
+:global(.vtex-store-components-3-x-buttonContainer--newsletter){
+  height: 28px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletter)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input){
+      background-color: #ffffff;
+      border-radius: 3px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletter)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input)::placeholder{
+      color: #292929;
+      font-family: 'GothamBook';
+      font-size: 15px;
+      text-align: center;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletter)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input){
+      color: #292929;
+      font-family: 'GothamBook';
+      font-size: 15px;
+      text-align: center;
+}
+
+
+:global(.vtex-store-components-3-x-buttonContainer--newsletter)
+  :global(.vtex-button){
+    height: 0px !important;
+    min-height: 30px;
+    font-family: 'GothamBook';
+    font-size: 15px;
+  }
+
+@media (max-width: 1025.00px) {
+  :global(.vtex-store-components-3-x-imageElement--logoPuntoCommerce){
+    width: 115px;
+  }
+}

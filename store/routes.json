@@ -1,0 +1,43 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.storelocator": {
+    "path": "/sucursales"
+  },
+  "store.custom#preguntasFrecuentes": {
+    "path": "/preguntasFrecuentes"
+  },
+  "store.custom#Terminos": {
+    "path": "/terminos"
+  },
+
+  "store.custom#paginaContenido": {
+    "path": "/pagina-contenido"
+  },
+
+  "store.custom#afiliate": {
+    "path": "/afiliate"
+  },
+
+  "store.custom#catalogos": {
+    "path": "/catalogos"
+  },
+
+  "store.custom#formulario": {
+    "path": "/formulario"
+  },
+
+  "store.custom#gracias": {
+    "path": "/gracias"
+  },
+  "store.custom#bolsaTrabajo": {
+    "path": "/bolsa-trabajo"
+  }
+}

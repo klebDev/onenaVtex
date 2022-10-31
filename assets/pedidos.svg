@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="82" viewBox="0 0 52 82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ce4338;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="reshot-icon-phone-smartphone-TWNA3CP5KH" transform="translate(-24 -9)">
+    <path id="Path_15" data-name="Path 15" class="cls-1" d="M75,85a5.014,5.014,0,0,1-5,5H30a5.014,5.014,0,0,1-5-5V15a5.014,5.014,0,0,1,5-5H70a5.014,5.014,0,0,1,5,5Z"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="50" height="50.003" transform="translate(25 22.5)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="3.75" cy="3.75" r="3.75" transform="translate(46.25 77.499)"/>
+    <path id="Path_16" data-name="Path 16" class="cls-1" d="M60,81.249h0Z"/>
+    <path id="Path_17" data-name="Path 17" class="cls-1" d="M46.251,16.249h0Z"/>
+    <path id="Path_18" data-name="Path 18" class="cls-1" d="M32.5,81.249h0Z"/>
+  </g>
+</svg>

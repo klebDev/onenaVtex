@@ -1,0 +1,109 @@
+{
+  "image#cat1Catalogo": {
+    "title": "Imagen cat1 C",
+    "props": {
+      
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat1Catalogo": {
+    "title": "Texto cat 1 Catalogo",
+    "props": {
+      "text": "CATEGORIA Catalogo",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+  "image#cat2Catalogo": {
+    "title": "Imagen cat2",
+    "props": {
+      
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat2Catalogo": {
+    "title": "Texto cat 2",
+    "props": {
+      "text": "CATEGORIA Catalogo",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+
+  "image#cat3Catalogo": {
+    "title": "Imagen cat3",
+    "props": {
+      
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat3Catalogo": {
+    "title": "Texto cat 3",
+    "props": {
+      "text": "CATEGORIA Catalogo",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+ 
+  "image#cat4Catalogo": {
+    "title": "Imagen cat4",
+    "props": {
+      
+      "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imgcats"
+    }
+  },
+  "rich-text#cat4Catalogo": {
+    "title": "Texto cat 4",
+    "props": {
+      "text": "CATEGORIA Catalogo",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass" : "textCategoria"
+    }
+  },
+  "flex-layout.col#cat5Catalogo": {
+    "title": "Categoría 5",
+    "children": [
+      "image#cat5Catalogo"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventVerticalStretch" : false,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    }
+  },
+
+  "image#cat5Catalogo": {
+    "title": "Imagen cat4",
+    "props": {
+      "height": 35,
+      "with" : 35,
+      "src": "/arquivos/ionic-ios-arrow.svg",
+      "link": {
+        "url": "/catalogos"
+      },
+      "blockClass": "imgArrowMegaMenu"
+    }
+  }
+}

@@ -1,0 +1,395 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.review__comment--user{
+  text-align: center !important;
+  font-family: 'Gotham-Light' !important;
+  font-size: 12px !important;
+  letter-spacing: 0px !important;
+  text-transform: capitalize;
+}
+
+:global(.vtex-rich-text-0-x-heading--titulo1ProductosHome){
+  color: #292929;
+  font-family: 'Gotham-Bold';
+  font-size: 35px;
+
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+:global(.vtex-rich-text-0-x-container--textMegaMenu){
+  display: inline-flex;
+  text-align: left;
+  align-content: start;
+  align: left;
+  float: left;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--tituloProductosRecomendados)
+  :global(.vtex-rich-text-0-x-paragraph){
+  text-align: center !important;
+  font-family: 'Gotham-Bold' !important;
+  font-size: 20px !important;
+  letter-spacing: 0px !important;
+  text-transform: capitalize;
+  color: #292929;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--textCategoria){
+  text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--tituloStroreLocator){
+  margin-top: 30px;
+}
+
+
+
+.paragraph--titleIntitucional{
+  color: #E73743;
+  font-family: 'Gotham-Bold';
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.paragraph--subTitleIntitucional{
+  color: #E73743;
+  font-family: 'Gotham-Bold';
+  font-size: 20px;
+  margin-left: 164px;
+  margin-right: 164px;
+  margin-bottom: 0px;
+}
+
+.paragraph--textIntitucional{
+  color: #5B5B5B;
+  font-family: 'GothamBook';
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 164px;
+  margin-right: 164px;
+  text-align: justify;
+  margin-top: 0px;
+}
+
+.paragraph--titlePreguntasFrecuentes{
+  color: #E73743;
+  font-family: 'Gotham-Bold';
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.paragraph--descripcionGeneralPreguntasFrecuentes{
+  color: #000000;
+  font-family: 'GothamBook';
+  font-size: 16px;
+  line-height: 16px;
+  text-align: justify;
+  margin-left: 166px;
+  margin-right: 166px;
+  padding-bottom: 0px;
+}
+
+.paragraph--subTitlePreguntasFrecuentes{
+  font-family: 'Gotham-Bold';
+  font-size: 20px;
+  color: #E73743;
+  margin-left: 166px;
+  margin-right: 166px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.paragraph--headingPreguntasFrecuentes{
+  font-family: 'Gotham-Bold';
+  font-size: 16px;
+  color: #0069B4;
+  margin-left: 166px;
+  margin-right: 166px;
+  line-height: 3px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+
+}
+
+.paragraph--headingPagina{
+  font-family: 'Gotham-Bold';
+  font-size: 16px;
+  color: #0069B4;
+  margin-left: 166px;
+  margin-right: 166px;
+  line-height: 3px;
+  margin-bottom: 10px;
+  margin-top: 8px
+
+}
+
+.paragraph--textDescriptionPreguntasFrecuentes{
+  font-family: 'GothamBook';
+  font-size: 14px;
+  color: #5B5B5B;
+  margin-left: 166px;
+  margin-right: 166px;
+  line-height: 16px;
+  margin-top: 7px;
+  opacity: 1;
+  text-align: justify;
+}
+
+.list--textDescriptionPreguntasFrecuentes{
+  font-family: 'GothamBook';
+  font-size: 14px;
+  color: #5B5B5B;
+  margin-left: 166px;
+  margin-right: 166px;
+  line-height: 16px;
+  margin-top: 7px;
+  opacity: 1;
+  text-align: justify;
+}
+
+.list--textIntitucional{
+  margin-left: 166px;
+  margin-right: 166px;
+}
+
+
+:global(.vtex-rich-text-0-x-list--textIntitucional)
+ :global(.vtex-rich-text-0-x-list--textIntitucional){
+  margin-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+:global(.vtex-rich-text-0-x-listItem) :global(.vtex-rich-text-0-x-listItem--textIntitucional){
+  width: 100%;
+}
+
+/*.list--textPreguntasFrecuentes ul{
+
+}
+*/
+@media (max-width: 885.98px) {
+
+  .paragraph--titleIntitucional{
+    color: #E73743;
+    font-family: 'Gotham-Bold';
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+  }
+
+
+  .paragraph--subTitleIntitucional{
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .paragraph--textIntitucional{
+    font-size: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+
+  .paragraph--titlePreguntasFrecuentes{
+    color: #E73743;
+    font-family: 'Gotham-Bold';
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+  }
+
+  .paragraph--descripcionGeneralPreguntasFrecuentes{
+    color: #000000;
+    font-family: 'GothamBook';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 0px;
+  }
+
+  .paragraph--subTitlePreguntasFrecuentes{
+    font-family: 'Gotham-Bold';
+    font-size: 18px;
+    color: #E73743;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    line-height: 20px;
+  }
+
+  .paragraph--headingPreguntasFrecuentes{
+    font-family: 'Gotham-Bold';
+    font-size: 14px;
+    color: #0069B4;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    text-align: left;
+  }
+
+  .paragraph--textDescriptionPreguntasFrecuentes{
+    font-family: 'GothamBook';
+    font-size: 14px;
+    color: #5B5B5B;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 16px;
+    margin-top: 7px;
+    opacity: 1;
+  }
+
+  .list--textDescriptionPreguntasFrecuentes{
+    font-family: 'GothamBook';
+    font-size: 14px;
+    color: #5B5B5B;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 16px;
+    margin-top: 7px;
+    opacity: 1;
+  }
+
+
+  .list--textIntitucional{
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+
+
+  :global(.vtex-rich-text-0-x-list--textIntitucional)
+   :global(.vtex-rich-text-0-x-list--textIntitucional){
+    font-family: 'GothamBook';
+    font-size: 14px;
+    color: #5B5B5B;
+    line-height: 16px;
+    margin-top: 7px;
+    opacity: 1;
+    text-align: justify;
+    margin-left: 0px !important;
+    margin-left: 0px !important;
+  }
+
+
+  :global(.vtex-rich-text-0-x-list--textIntitucional){
+    font-family: 'GothamBook';
+    font-size: 14px;
+    color: #5B5B5B;
+    line-height: 16px;
+    margin-top: 7px;
+    opacity: 1;
+    text-align: justify;
+    margin-left: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .paragraph--headingPagina{
+    font-family: 'Gotham-Bold';
+    font-size: 16px;
+    color: #0069B4;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    text-align: left;
+  }
+
+}

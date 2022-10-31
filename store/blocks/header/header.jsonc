@@ -1,0 +1,598 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#1-desktop",
+      "sticky-layout#barraMenu-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+
+  "notification.bar#home": {
+    "props": {
+      "content": "ENVIÓS A TODA LA REPUBLICA"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#spacerLeftMovil": {
+    "props": {
+      "width": "grow",
+      "blockClass": "spacerLeftMovil"
+    }
+  },
+
+  "flex-layout.col#search-bar": {
+    "props": {
+      "width": "grow",
+      "blockClass": "search-bar"
+    },
+    "children":[
+      "search-bar"
+    ]
+  },
+
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2#buscador"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Búsqueda por palabra, producto, etc.",
+      "blockClass": "search-bar"
+    }
+  },
+  "autocomplete-result-list.v2#buscador": {
+    "blocks": ["product-summary.shelf"],
+    "props" : {
+      "blockClass": "busqueda",
+      "simulationBehavior":"default"
+    }
+  },
+
+
+
+  "flex-layout.col#spacerRightMovil": {
+    "props": {
+      "width": "grow",
+      "blockClass": "spacerRightMovil"
+    }
+  },
+
+
+  "sticky-layout#1-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+
+  "sticky-layout#barraMenu-desktop":{
+    "props": {
+      "blockClass": "barraMenu"
+    },
+    "children": ["flex-layout.row#menuCategorias"]
+  },
+  "flex-layout.row#menuCategorias": {
+    "props": {
+      "blockClass": "main-menuCategorias",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menuCategorias"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menuSucursales",
+      "flex-layout.col#searchBar",
+      "flex-layout.col#category-menuFavoritos",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    }
+    ,
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menuSucursales": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menuSucursales"]
+  },
+
+  "flex-layout.col#searchBar": {
+    "props": {
+      "verticalAlign": "middle"
+    }
+    ,"children": ["search-bar"]
+  },
+
+
+  "flex-layout.col#category-menuFavoritos": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menuFavoritos"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo_onena.svg",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile", "sticky-layout#2-mobile"]
+  },
+
+  "sticky-layout#1-mobile" : {
+    "children": ["notification.bar#homeMovil"]
+  },
+  "sticky-layout#2-mobile": {
+    "children": ["flex-layout.row#2-mobile", "flex-layout.row#3-mobile"]
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacerLeftMovil",
+      "logo#mobile",
+      "flex-layout.col#spacerRightMovil",
+      "vtex.menu@2.x:menu#institutional-mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#3-mobile": {
+    "children": [
+      "flex-layout.col#spacerLeftMovil",
+      /* "search-bar", */
+      "flex-layout.col#search-bar",
+      "flex-layout.col#spacerRightMovil"
+      /* "minicart.v2" */
+    ],
+    "props": {
+      "blockClass": "headerSearchMobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "notification.bar#homeMovil": {
+    "props": {
+      "content": "ENVIÓS A TODA LA REPUBLICA",
+      "blockClass": "notificationMovil"
+    }
+  },
+  "drawer": {
+    "children": [
+                "menu#drawer"
+                ],
+    "props" : {
+      "isFullWidth" : true
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "disclosure-layout#itemMenuDama",
+      "disclosure-layout#itemMenuCaballero",
+      "menu-item#categoryClinicos",
+      "menu-item#categoryCatalogos",
+      "menu-item#categoryOutlet",
+      "menu-item#afiliate",
+      "menu-item#blog"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "flex-layout.row#drawer": {
+    "children": [
+      "menu-item#Damas-Mobile"
+    ],
+    "props" : {
+      "fullWidth" : true
+      }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo_onena.png",
+      "width": "70"
+    }
+  },
+
+
+//--------------------------- disclosure-layout ----------------------------------
+
+"disclosure-layout#itemMenuDama":{
+  "children":[
+    "disclosure-trigger#itemMenuDama",
+    "disclosure-content#itemMenuDama"
+  ],
+  "props":{
+    "blockClass" : "disclosureMegaMenu"
+  }
+},
+
+"disclosure-trigger#itemMenuDama":{
+  "children":[
+    "rich-text#damamob",
+    "disclosure-state-indicator#itemMenuDama"
+  ],
+  "props":{
+    "blockClass" : "disclosureMegaMenu"
+  }
+},
+"rich-text#damamob":{
+  "props":{
+    "text":"Dama",
+    "blockClass" : "textMegaMenu"
+  }
+},
+"disclosure-content#itemMenuDama":{
+  "children":[
+    "slider-layout#slidercategoriasMovil"
+  ]
+},
+
+"disclosure-state-indicator#itemMenuDama":{
+  "props":{
+    "Show": "image#iconplus",
+    "Hide": "image#awesome-minus",
+    "blockClass" : "iconplus"
+  }
+},
+
+"disclosure-layout#itemMenuCaballero":{
+  "children":[
+    "disclosure-trigger#itemMenuCaballero",
+    "disclosure-content#itemMenuCaballero"
+  ]
+},
+
+
+"disclosure-trigger#itemMenuCaballero":{
+  "children":[
+    "rich-text#caballeroMob",
+    "disclosure-state-indicator#itemMenuCaballero"
+  ],
+  "props":{
+    "blockClass" : "disclosureMegaMenu"
+  }
+},
+"rich-text#caballeroMob":{
+  "props":{
+    "text":"Caballero",
+    "blockClass" : "textMegaMenu"
+  }
+},
+"disclosure-content#itemMenuCaballero":{
+  "children":[
+    "slider-layout#slidercategoriasMovilCaballero"
+  ]
+},
+"disclosure-state-indicator#itemMenuCaballero":{
+  "props":{
+    "Show": "image#iconplus",
+    "Hide": "image#awesome-minus"
+  }
+},
+
+
+
+
+"disclosure-trigger#itemMenuClinicus":{
+  "children":[
+    "rich-text#ClinicusMob",
+    "disclosure-state-indicator#itemMenuClinicus"
+  ],
+  "props":{
+    "blockClass" : "disclosureMegaMenu"
+  }
+},
+"rich-text#ClinicusMob":{
+  "props":{
+    "text":"Clinicus",
+    "blockClass" : "textMegaMenu"
+  }
+},
+"disclosure-layout#itemMenuClinicus":{
+  "children":[
+    "disclosure-trigger#itemMenuClinicus",
+    "disclosure-content#itemMenuClinicus"
+  ]
+},
+"disclosure-content#itemMenuClinicus":{
+  "children":[
+    "slider-layout#slidercategoriasMovilClinicus"
+  ]
+},
+"disclosure-state-indicator#itemMenuClinicus":{
+  "props":{
+    "Show": "image#iconplus",
+    "Hide": "image#awesome-minus"
+  }
+},
+
+
+
+
+
+
+"disclosure-trigger#itemMenuCatalogos":{
+  "children":[
+    "rich-text#CatalogosMob",
+    "disclosure-state-indicator#itemMenuCatalogos"
+  ],
+  "props":{
+    "blockClass" : "disclosureMegaMenu"
+  }
+},
+"rich-text#CatalogosMob":{
+  "props":{
+    "text":"Catálogos",
+    "blockClass" : "textMegaMenu"
+  }
+},
+"disclosure-layout#itemMenuCatalogos":{
+  "children":[
+    "disclosure-trigger#itemMenuCatalogos",
+    "disclosure-content#itemMenuCatalogos"
+  ]
+},
+"disclosure-content#itemMenuCatalogos":{
+  "children":[
+    "slider-layout#slidercategoriasMovilCatalogo"
+  ]
+},
+"disclosure-state-indicator#itemMenuCatalogos":{
+  "props":{
+    "Show": "image#iconplus",
+    "Hide": "image#awesome-minus"
+  }
+},
+
+
+
+
+
+"disclosure-trigger#itemMenuOutlet":{
+  "children":[
+    "rich-text#CatalogosMob",
+    "disclosure-state-indicator#itemMenuOutlet"
+  ],
+  "props":{
+    "blockClass" : "disclosureMegaMenu"
+  }
+},
+"rich-text#OutletMob":{
+  "props":{
+    "text":"Outlet",
+    "blockClass" : "textMegaMenu"
+  }
+},
+"disclosure-layout#itemMenuOutlet":{
+  "children":[
+    "disclosure-trigger#itemMenuOutlet",
+    "disclosure-content#itemMenuOutlet"
+  ]
+},
+"disclosure-content#itemMenuOutlet":{
+  "children":[
+    "slider-layout#slidercategoriasMovilOutlet"
+  ]
+},
+"disclosure-state-indicator#itemMenuOutlet":{
+  "props":{
+    "Show": "image#iconplus",
+    "Hide": "image#awesome-minus"
+  }
+},
+
+
+
+
+"image#iconplus":{
+  "props":{
+    "width":20,
+    "src":"assets/plus-blue.svg",
+    "blockClass" : "iconplus"
+  }
+},
+
+
+"image#awesome-minus":{
+  "props":{
+    "width":20,
+    "src":"/arquivos/awesome-minus.svg",
+    "blockClass" : "iconplus"
+  }
+},
+
+
+
+
+//--------------------------   menu accordion ---------------------------
+
+  "menu-item#Damas-Mobile": { //cambiar identificador
+    "props": {
+      "blockClass":"itmenmob",
+      "id": "menu-item-category-DamaMovil", //agregar id
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d", //cambiar direccionamiento
+        "noFollow": true,
+        "tagTitle": "Dama", //cambiar etiqueta
+        "text": "Dama"  //cambiar texto para mostrar
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#accordionDama"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#accordionDama": {
+    "children": [
+      "flex-layout.row#sldmen"
+
+    ],"props":{
+      "width":"100%",
+      "blockClass":"menuaccordion"
+    }
+  },"flex-layout.row#sldmen":{
+    "children":[
+      "flex-layout.col#colmenmob"
+    ]
+  }, "flex-layout.col#colmenmob":{
+    "children":[
+      "slider-layout#menu"
+    ]
+  },
+
+  "flex-layout.row#categoriasMovil": {
+    "children": [
+      "slider-layout#slidercategoriasMovil"
+    ],"props":{
+      "fullWidth":true,
+      "blockClass":"rowcontnerdorslider"
+    }
+  },"slider-layout#menu":{
+    "props":{
+      "blockClass":"slidercatsmob",
+      "showNavigationArrows":"always",
+      "showPaginationDots":"never",
+      "itemsPerPage":{
+        "desktop":2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true
+    },
+    "children":[
+      "flex-layout.col#c1",
+      "flex-layout.col#c2",
+      "flex-layout.col#c3"
+    ]
+  },
+
+  "flex-layout.row#c1":{
+    "children":[
+      "flex-layout.col#c1"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"rowslider"
+    }
+  },"flex-layout.row#c2":{
+    "children":[
+      "flex-layout.col#c2"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"rowslider"
+    }
+  },"flex-layout.row#c3":{
+    "children":[
+      "flex-layout.col#c3"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"rowslider"
+    }
+  },
+
+  "flex-layout.col#c1":{
+    "children":[
+      "image#tenipru",
+      "rich-text#calzado"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },
+  "image#tenipru":{
+    "props":{
+      "maxHeight": "100px",
+      "src": "/arquivos/teni.png"
+    }
+  },
+  "rich-text#calzado":{
+    "props":{
+      "text":"Calzado",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#c2":{
+    "children":[
+      "image#tenipru",
+      "rich-text#calzado"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },"flex-layout.col#c3":{
+    "children":[
+      "image#tenipru",
+      "rich-text#calzado"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  }
+
+
+
+
+  /* "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categoryDama"
+    ]
+  } */
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'GothamBook';
+    src:    url(/arquivos/Gotham-Book.otf.css) format("opentype"),
+            url(/arquivos/GothamBook.ttf.css) format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src:    url(/arquivos/Gotham-Light.otf.css) format("opentype"),
+            url(/arquivos/GothamLight.ttf.css) format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url(/arquivos/GothamMedium.otf.css) format("opentype"),
+         url(/arquivos/GothamMedium.ttf.css) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(/arquivos/Gotham-Bold.otf.css) format("opentype"),
+         url(/arquivos/GothamBold.ttf.css) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url(/arquivos/Gotham-Black.otf.css) format("opentype");
+    font-weight: normal;
+}

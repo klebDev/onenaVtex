@@ -1,0 +1,18 @@
+{
+  "list-context.image-list#sliderMovil": {
+    "children": ["slider-layout#onena-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "/arquivos/banner-hero-mobile.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "/arquivos/banner-hero-mobile.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  }
+}

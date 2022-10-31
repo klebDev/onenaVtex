@@ -1,0 +1,369 @@
+.expandIcon {
+  color: #727273;
+}
+
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow)
+  :global(.vtex-slider-layout-0-x-caretIcon){
+    display: none;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow)
+  :global(.vtex-slider-layout-0-x-caretIcon){
+    display: none;
+}
+
+
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--slidercategoriasMovil){
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12.244" viewBox="0 0 7 12.244" fill="%235784ba"><path id="Icon_ionic-ios-arrow-back"  data-name="Icon ionic-ios-arrow-back" class="cls-1" d="M13.361,12.314l4.633-4.629a.875.875,0,1,0-1.239-1.236l-5.249,5.245A.873.873,0,0,0,11.48,12.9l5.271,5.282a.875.875,0,0,0,1.239-1.236Z" transform="translate(-11.251 -6.194)"/></svg>')  no-repeat center center / contain !important;
+  background-repeat: no-repeat;
+  background-position:  0px;
+  background-size: 100% 100% !important;
+  width: 12px;
+  height: 22.48px;
+  margin-left: 22px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow--slidercategoriasMovil){
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12.244" viewBox="0 0 7 12.244" fill="%235784ba"><path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" class="cls-1" d="M13.361,12.314l4.633-4.629a.875.875,0,1,0-1.239-1.236l-5.249,5.245A.873.873,0,0,0,11.48,12.9l5.271,5.282a.875.875,0,0,0,1.239-1.236Z" transform="translate(18.251 18.438) rotate(180)"/></svg>')  no-repeat center center / contain !important;
+  background-repeat: no-repeat;
+  background-position:  0px;
+  background-size: 100% 100% !important;
+  width: 12px;
+  height: 22.48px;
+  margin-right: 22px;
+}
+
+
+
+
+:global(.vtex-order-placed-2-x-confirmationIconWrapper){
+  color: #0069B4;
+}
+
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--carousel)
+  :global(.vtex-slider-layout-0-x-caretIcon){
+    display: none;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow--carousel)
+  :global(.vtex-slider-layout-0-x-caretIcon){
+    display: none;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--carousel){
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line> </svg>')  no-repeat center center / contain !important;
+  background-repeat: no-repeat;
+  background-position:  0px;
+  background-size: 100% 100% !important;
+  width: 30px;
+  height: 30px;
+  margin-left: 42px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow--carousel){
+  display:inline-block ;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"> </circle><polyline points="12 16 16 12 12 8"> </polyline><line x1="8" y1="12" x2="16" y2="12"></line> </svg>')  no-repeat center center / contain !important;
+  background-repeat: no-repeat;
+  background-position:  0px;
+  background-size: 100% 100% !important;
+  width: 30px;
+  height: 30px;
+  margin-right: 42px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProductosHome)
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+    display:inline-block ;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line> </svg>')  no-repeat center center / contain !important;
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 100% 100% !important;
+    width: 30px;
+    height: 30px;
+    margin-left: 27px;
+}
+
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProductosHome)
+  :global(.vtex-slider-layout-0-x-sliderRightArrow){
+    display:inline-block ;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"> </circle><polyline points="12 16 16 12 12 8"> </polyline><line x1="8" y1="12" x2="16" y2="12"></line> </svg>')  no-repeat center center / contain !important;
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 100% 100% !important;
+    width: 30px;
+    height: 30px;
+    margin-right: 27px;
+}
+
+
+:global(.vtex-shelf-1-x-relatedProducts--productosRecomendados){
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+:global(.vtex-shelf-1-x-caretIcon--productosRecomendados){
+    display: none;
+}
+
+:global(.vtex-shelf-1-x-arrowLeft--productosRecomendados){
+    display:inline-block ;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line> </svg>')  no-repeat center center / contain !important;
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 100% 100% !important;
+    width: 30px;
+    height: 30px;
+    margin-left: -13px;
+}
+
+:global(.vtex-shelf-1-x-arrowRight--productosRecomendados){
+    display:inline-block ;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"> </circle><polyline points="12 16 16 12 12 8"> </polyline><line x1="8" y1="12" x2="16" y2="12"></line> </svg>')  no-repeat center center / contain !important;
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 100% 100% !important;
+    width: 30px;
+    height: 30px;
+    margin-right: -13px;
+}
+
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){
+  display: none;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-star--filled){
+  color: #DB7E30;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-star--empty){
+  color: #DB7E30;
+}
+
+
+:global(.vtex-store-drawer-0-x-closeIcon){
+  display: none;
+}
+
+
+:global(.vtex-store-drawer-0-x-drawer)
+:global(.vtex-store-drawer-0-x-closeIconContainer)
+  :global(.vtex-store-drawer-0-x-closeIconButton){
+    display:inline-block ;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="%235784ba"><g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(-3.375 -3.375)"><path id="Path_97" data-name="Path 97" class="cls-1" d="M19.153,18.164l-2.3-2.3,2.3-2.3a.7.7,0,0,0-.987-.987l-2.3,2.3-2.3-2.3a.7.7,0,0,0-.987.987l2.3,2.3-2.3,2.3a.675.675,0,0,0,0,.987.693.693,0,0,0,.987,0l2.3-2.3,2.3,2.3a.7.7,0,0,0,.987,0A.693.693,0,0,0,19.153,18.164Z" transform="translate(-5.12 -5.118)"/><path id="Path_98" data-name="Path 98" class="cls-1" d="M10.875,4.385a6.488,6.488,0,1,1-4.59,1.9,6.447,6.447,0,0,1,4.59-1.9m0-1.01a7.5,7.5,0,1,0,7.5,7.5,7.5,7.5,0,0,0-7.5-7.5Z"/></g></svg>')  no-repeat center center / contain !important;
+    background-repeat: no-repeat;
+    background-position:  0px;
+    background-size: 100% 100% !important;
+    width: 13px;
+    height: 13px;
+    float: right;
+    margin-right: 25px;
+}
+
+:global(.vtex-store-drawer-0-x-drawer)
+  :global(.vtex-store-drawer-0-x-closeIconContainer){
+    margin-top: 25px;
+    display: revert;
+    margin-bottom: 71.5px;
+    content: "Text"
+}
+
+:global(.vtex-store-drawer-0-x-drawer)
+  :global(.vtex-store-drawer-0-x-closeIconContainer)::after{
+    content: "Cerrar";
+    padding-left: 25px;
+    align-content: center;
+    font-family: 'Gotham-Bold';
+    font-size: 12px;
+}
+
+
+:global(.vtex-store-components-3-x-shareSocialIcon):first-child{
+    display: none;
+}
+
+:global(.vtex-store-components-3-x-shareContainer)
+  :global(.vtex-store-components-3-x-shareSocialButton):first-child::before {
+    content: ' ';
+    display:block;
+    height:19.14px;
+    width:19.14px;
+    background-size: 19.14px 19.14px;
+    background-image:url('/arquivos/awesome-facebook.svg');
+    background-repeat: no-repeat;
+}
+
+:global(.vtex-store-components-3-x-shareContainer)
+  :global(.vtex-store-components-3-x-shareSocialButton):not(:first-child)::before{
+    content: ' ';
+    display:block;
+    height:19.14px;
+    width:19.14px;
+    background-size: 19.14px 19.14px;
+    background-image:url('/arquivos/awesome-whatsapp-square.svg');
+    background-repeat: no-repeat;
+}
+
+:global(.vtex-store-components-3-x-shareContainer)
+  :global(.vtex-store-components-3-x-shareSocialButton):last-child::before {
+    content: ' ';
+    display:block;
+    height:19.14px;
+    width:19.14px;
+    background-size: 19.14px 19.14px;
+    background-image:url('/arquivos/awesome-twitter-square.svg');
+    background-repeat: no-repeat;
+}
+
+
+:global(.vtex-store-components-3-x-imageElement--iconMinusBlack){
+  fill: #000000;
+}
+
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1079.98px) {
+  :global(.vtex-shelf-1-x-relatedProducts--productosRecomendados){
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+
+/*Cambio de vtex de desktop a movil*/
+@media (max-width: 1025.00px) {
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--carousel){
+    top: 92%;
+    display: flex;
+    margin-bottom: 12px;
+  }
+  
+  :global(.vtex-login-2-x-profile){
+    display: none;
+  }
+
+
+  :global(.vtex-slider-layout-0-x-paginationDot){
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel){
+    margin-bottom: 75px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer){
+    background-color: #ffffff;
+  }
+
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+    :global(.vtex__icon-close){
+      display: none;
+  }
+
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+    :global(.vtex-search-2-x-close-btn){
+      display:inline-block ;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="%235784ba"><g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(-3.375 -3.375)"><path id="Path_97" data-name="Path 97" class="cls-1" d="M19.153,18.164l-2.3-2.3,2.3-2.3a.7.7,0,0,0-.987-.987l-2.3,2.3-2.3-2.3a.7.7,0,0,0-.987.987l2.3,2.3-2.3,2.3a.675.675,0,0,0,0,.987.693.693,0,0,0,.987,0l2.3-2.3,2.3,2.3a.7.7,0,0,0,.987,0A.693.693,0,0,0,19.153,18.164Z" transform="translate(-5.12 -5.118)"/><path id="Path_98" data-name="Path 98" class="cls-1" d="M10.875,4.385a6.488,6.488,0,1,1-4.59,1.9,6.447,6.447,0,0,1,4.59-1.9m0-1.01a7.5,7.5,0,1,0,7.5,7.5,7.5,7.5,0,0,0-7.5-7.5Z"/></g></svg>')  no-repeat center center / contain !important;
+      background-repeat: no-repeat;
+      background-position:  0px;
+      background-size: 100% 100% !important;
+      width: 15px;
+      height: 15px;
+      float: right;
+      margin-right: 22px;
+      padding-top: 32px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 885.98px) {
+}
+
+@media (max-width: 767.00px) {
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--carousel){
+    top: 92%;
+    display: flex;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 705.98px) {
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--carousel){
+    top: 89%;
+    display: flex;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProductosHome)
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+      width: 20.98px;
+      height: 20.98px;
+      margin-left: 29px;
+  }
+
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProductosHome)
+    :global(.vtex-slider-layout-0-x-sliderRightArrow){
+      width: 20.98px;
+      height: 20.98px;
+      margin-right: 29px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProductosHome){
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  :global(.vtex-product-summary-2-x-element--productosHome)
+    :global(.vtex-button) {
+        height: 10px !important;
+  }
+
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--carousel){
+    top: 85%;
+    display: flex;
+    margin-bottom: 12px;
+  }
+
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 527.98px) {
+  :global(.vtex-store-components-3-x-shareContainer){
+    margin-top: 18.24px;
+  }
+}
+
+/* Extra very small devices resolution (portrait phones, less than 321px) */
+@media (max-width: 320.98px) {
+}
+
+
+:global(.vtex-store-components-3-x-imageElement--corazon){
+  width: 30px;
+  height: 30px;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--corazon){
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 4px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--corazon){
+  width: 23px;
+  padding-right: 3px;
+}

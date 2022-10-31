@@ -1,0 +1,235 @@
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+
+/*-------------------  Inicio  Personalización de search result ------------------*/
+:global(.vtex-search-result-3-x-orderByText){
+  font-weight: 600;
+  color: black;
+}
+
+:global(.vtex-search-result-3-x-orderByText)::after{
+  content: ":";
+}
+
+:global(.vtex-search-result-3-x-totalProducts--layout),
+:global(.vtex-search-result-3-x-filterMessage),
+:global(.vtex-search-result-3-x-filterTitle),
+:global(.vtex-search-result-3-x-caretIcon),
+:global(.vtex-search-result-3-x-filterPopupArrowIcon ){
+  color:#DB7E30 !important;
+}
+
+:global(.vtex-search-result-3-x-filter__container--title)
+  :global(.vtex-search-result-3-x-filterMessage){
+    font-family: 'GothamMedium';
+    font-size: 14px;
+    color: #DB7E30;
+    text-indent: 0px;
+    line-height: 3px;
+    letter-spacing: 0px;
+    padding-top:7px;
+    padding-bottom: 13px;
+}
+
+:global(.vtex-search-result-3-x-categoryParent)
+  :global(.vtex-search-result-3-x-categoryItemName){
+    font-family: 'GothamBook';
+    font-size: 15px;
+    line-height: 33px;
+    color: #292929;
+    font-weight: 100;
+}
+
+:global(.vtex-checkbox__line-container)
+:global(.vtex-checkbox__label){
+  font-family: 'GothamBook';
+  font-size: 15px;
+  line-height: 33px;
+  color: #292929;
+  font-weight: 100;
+}
+
+:global(.vtex-search-result-3-x-filterTitle)
+:global(.vtex-search-result-3-x-filterIcon){
+  display: block !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchbread){
+  padding-bottom: 15px;
+}
+
+
+:global(.vtex-search-result-3-x-filterTitle){
+  font-family: 'GothamMedium';
+  font-size: 12px;
+  color: #DB7E30;
+  text-indent: 0px;
+  /*line-height: 2px;*/
+  letter-spacing: 0px;
+}
+
+
+:global(.vtex__icon-check){
+  background-color: #DB7E30;
+  border: 2px solid#DB7E30;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterCol){
+  border: .5px solid #707070;
+  padding: 15px;
+}
+
+
+:global(.vtex-search-result-3-x-orderByButton){
+  padding-top: 0%;
+}
+
+:global(.vtex-search-result-3-x-totalProducts--layout){
+  padding-top: 5px;
+  padding-left: 0px;
+}
+
+/*:global(.vtex-search-result-3-x-filterIcon),
+:global(.vtex-search-result-3-x-filterPopupButton)
+  :global(.vtex-search-result-3-x-filterPopupTitle),
+:global(.vtex-breadcrumb-1-x-caretIcon),
+:global(.vtex-breadcrumb-1-x-homeIcon){
+  display: none;
+}*/
+
+:global(.vtex-breadcrumb-1-x-link){
+  font-family: 'GothamBook';
+  font-size: 12px;
+  font-weight: normal;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  color: #605f5f;
+}
+
+:global(.vtex-breadcrumb-1-x-homeLink)::before{
+  font-family: 'GothamBook';
+  font-size: 12px;
+  content: "Inicio";
+  position: relative;
+  bottom: 2px;
+}
+
+:global(.vtex-breadcrumb-1-x-term){
+  font-family: 'GothamBook';
+  text-transform: initial !important;
+}
+
+:global(.vtex-breadcrumb-1-x-container){
+  font-size: 12px;
+  text-transform: capitalize !important;
+}
+
+:global(.vtex-breadcrumb-1-x-link--2){
+  font-weight: bold;
+}
+
+:global(.vtex-breadcrumb-1-x-link--1){
+  font-weight: bold;
+}
+
+:global(.vtex-breadcrumb-1-x-arrow--1)::before,
+:global(.vtex-breadcrumb-1-x-arrow--2)::before,
+:global(.vtex-breadcrumb-1-x-arrow--3)::before,
+:global(.vtex-breadcrumb-1-x-arrow--4)::before{
+  content: url(/arquivos/morethan.png);
+}
+
+:global(.vtex-breadcrumb-1-x-arrow)::before,
+:global(.vtex-breadcrumb-1-x-arrow)::before,
+:global(.vtex-breadcrumb-1-x-arrow)::before,
+:global(.vtex-breadcrumb-1-x-arrow)::before{
+  content: url(/arquivos/morethan.png);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterCol){
+  padding-top: 0%;
+}
+
+:global(.vtex-search-result-3-x-filtersWrapperMobile)
+  :global(.vtex-search-result-3-x-filterPopupArrowIcon)::before{
+  content: url(/arquivos/filter.png);
+  width: 30px;
+}
+
+:global(.vtex-search-result-3-x-filtersWrapperMobile)
+  :global(.vtex-search-result-3-x-filterPopupArrowIcon){
+    padding-left: 0%;
+    padding-top: 6px;
+  }
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow)
+  :global(.vtex-slider__selector){
+    background-color: #DB7E30;
+}
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow)
+  :global(.vtex-slider__base-internal){
+    background-color: #DB7E30;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItemImageValue){
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+@media(max-width: 1024px){
+  :global(.vtex-search-result-3-x-orderByButton)::before{
+    content: "ORDENAR POR:";
+    font-weight: 600;
+  }
+
+  :global(.vtex-search-result-3-x-orderByButton){
+    padding-top: 16px;
+  }
+
+  :global(.vtex-breadcrumb-1-x-container){
+    padding-left: 15px;
+    padding-bottom: 0%;
+  }
+
+}
+
+
+/*------------------- Fin Personalización de search result ------------------*/
+
+
+
+
+
+ @media (max-width: 575.98px) {
+   /* :global(.vtex-store-components-3-x-portalContainer--search-bar){
+     left: 53px !important;
+   } */
+
+   :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+     width: 75vw !important;
+     padding-left: 20px;
+   }
+
+   :global(.vtex-search-2-x-biggy-autocomplete-wrapper)
+    :global(.vtex-search-2-x-biggy-autocomplete){
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      max-height: 725px;
+   }
+ }

@@ -1,0 +1,172 @@
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-logoLink),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  transition: background 0.3s ease;
+  will-change: padding, background;
+}
+
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #F5F5F5;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease, background 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+
+  /* header background when stuck and not hovered */
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    /* background: rgba(240, 240, 240, 0.8); */
+    background-color: #F5F5F5;
+
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  /* background-color: #f0f0f0; */
+    background-color: #F5F5F5;
+    height: auto !important;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-logoLink),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-minicart-2-x-openIconContainer),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    transition: none;
+  }
+}
+
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1079.98px) {
+}
+
+/*Cambio de vtex de desktop a movil*/
+@media (max-width: 1025.00px) {
+  :global(.vtex-menu-2-x-menuContainerNav--instmob) {
+    padding-right: 0px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--instmob) {
+    padding-right: 10px;
+  }
+
+  :global(.vtex-minicart-2-x-openIconContainer) {
+    padding: 0px;
+  }
+
+  :global(.vtex-login-2-x-container)
+    :global(.vtex-button)
+      :global(.vtex-button__label){
+        padding: 0px;
+  }
+
+  :global(.vtex-store-components-3-x-logoImage){
+      padding-left: 0px !important;
+      margin-left: 19%;
+      width: 100px;
+  }
+
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--headerSearchMobile){
+  background-color: #ffffff;
+}
+
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-flex-layout-0-x-flexRow)
+    :global(.vtex-flex-layout-0-x-flexRowContent--headerSearchMobile){
+      background: rgba(240,240,240,0.8);
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 885.98px) {
+}
+
+@media (max-width: 767.00px) {
+}
+
+@media (max-width: 705.98px) {
+
+}
+
+@media (max-width: 575.98px) {
+  :global(.vtex-store-components-3-x-logoImage){
+    padding-left: 35%;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 527.98px) {
+  :global(.vtex-store-components-3-x-logoImage){
+    padding-left: 33%;
+  }
+}
+
+/* Extra very small devices resolution (portrait phones, less than 321px) */
+@media (max-width: 320.98px) {
+  :global(.vtex-store-components-3-x-logoImage){
+    padding-left: 32%;
+  }
+
+
+}
+:global(.vtex-menu-2-x-menuContainerNav){
+  width: 100%;
+}

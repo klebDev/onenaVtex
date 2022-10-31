@@ -1,0 +1,25 @@
+{
+    "store.custom#formulario": {
+      "blocks": [
+        "flex-layout.row#infoCardBannerForm"
+      ]
+    },
+    "flex-layout.row#infoCardBannerForm":{
+        "children": ["info-card#BannerForm"]
+    },
+    "info-card#BannerForm": {
+        "props": {
+            "id": "info-card-banner-form",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/banner-landing-page.png",
+            "callToActionUrl": "/",
+            "blockClass": "infoCardBlockAfiliate",
+            "textAlignment": "center",
+            "textMode" : "html",
+            "callToActionMode" : ""
+        }
+      }
+}
+  
+  

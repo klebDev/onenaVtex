@@ -1,0 +1,608 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },
+  "flex-layout.row#countdown": {
+    "children": ["countdown"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "rowCountDown",
+      "horizontalAlign": "center"
+    }
+  },
+  "responsive-layout.desktop":{
+    "children":[
+      "flex-layout.row#countdown",
+      "list-context.image-list#SliderHome",
+      "flex-layout.row#infoCardContainer",
+      "rich-text#titulo1ProductosHome",
+      "flex-layout.row#productosHome",
+      "flex-layout.row#infoCardContainer2",
+      "flex-layout.row#Container3"
+
+      /* "info-card#home", */
+      /* "rich-text#question", */
+    ]
+  },
+
+  "responsive-layout.tablet":{
+    "children":[
+      "flex-layout.row#countdown",
+      "list-context.image-list#SliderHome",
+      "flex-layout.row#infoCardContainer",
+      "rich-text#titulo1ProductosHome",
+      "flex-layout.row#productosHome",
+      "flex-layout.row#infoCardContainer2",
+      "flex-layout.row#Container3"
+    ]
+  },
+
+  "responsive-layout.phone":{
+    "children":[
+      "flex-layout.row#countdown",
+      "list-context.image-list#SliderHome",
+      "flex-layout.row#infoCardContainer",
+      "__fold__.experimentalLazyAssets",
+      "rich-text#titulo1ProductosHome",
+      "flex-layout.row#productosHome",
+      "flex-layout.row#infoCardContainer2",
+      "flex-layout.row#Container3Movil"
+      /* "flex-layout.row#Container3" */
+    ]
+  },
+
+  "list-context.image-list#SliderHome": {
+    "children": ["slider-layout#bannerprin"],
+    "props": {
+      "height": 720,
+      "blockClass" : "SliderHome",
+      "images": [
+        {
+          "image": "/arquivos/banner-hero.png",
+          "mobileImage": "/arquivos/banner-hero-mobile.png"
+        },
+        {
+          "image": "/arquivos/banner-hero.png",
+          "mobileImage": "/arquivos/banner-hero-mobile.png"
+        }
+      ]
+    },
+    "title" : "Scroll Bar"
+  },
+  "flex-layout.row#infoCardContainer": {
+    "children": ["info-card#infoCard1", "info-card#infoCard2", "info-card#infoCard3"]
+  },
+
+  "flex-layout.row#infoCardContainer2": {
+    "children": ["info-card#infoCard1Container2", "info-card#infoCard2Container2"]
+  },
+
+  "flex-layout.row#infoCardContainerHomeLogos": {
+    "children": [ "flex-layout.col#colLogo1Home",
+                  "flex-layout.col#colLogo2Home",
+                  "flex-layout.col#colLogo3Home",
+                  "flex-layout.col#colLogo4Home",
+                  "flex-layout.col#colLogo5Home"
+                ],
+    "props" : {
+      "blockClass" : "logosHomeContainer"
+    }
+  },
+
+  "flex-layout.row#infoCardContainerHomeLogosMobile": {
+    "children": [
+                  "flex-layout.col#colLogo2Home",
+                  "flex-layout.col#colLogo3Home",
+                  "flex-layout.col#colLogo5Home"
+                ],
+    "props" : {
+      "blockClass" : "logosHomeContainerMobile"
+    }
+  },
+  "flex-layout.row#Container3": {
+    "children": ["info-card#infoCard1Container3", "flex-layout.row#productosHomeBlock2"]
+  },
+
+  "flex-layout.row#Container3Movil": {
+    "children": ["info-card#infoCard1Container3Movil", "flex-layout.row#productosHomeBlock2"]
+  },
+
+  "slider-layout#onena-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "slider-layout#bannerprin": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "autoplay":{
+        "timeout": 4000,
+        "stopOnHover": true
+
+      }
+    }
+  },
+
+  "info-card#infoCard1": {
+    "props": {
+      "id": "info-card-example1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/pexels-cottonbro.jpg",
+      "headline": "Casual",
+      "subhead":"<p style='margin-top: 0px !important; margin-bottom:10px; text-shadow: 3px 3px 3px #E2E2E2 !important;' class='subHeaderInfocard' >Confort auténtico </p><a class='btnInfoCardHomeLeft' href='#' style=''>Dama</a> <a href='www.google.com' class='btnInfoCardHomeRight' >Caballero</a>",
+      "callToActionUrl": "/casual/d",
+      "blockClass": "infoCardBlock1Home",
+      "textAlignment": "center",
+      "textMode" : "html",
+      "callToActionMode" : ""
+    },
+    "title" : "InforCard 1"
+  },
+  "info-card#infoCard2": {
+    "props": {
+      "id": "info-card-example2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/infoCardImg2.png",
+      "headline": "Fiesta",
+      "subhead":"<p style='margin-top: 0px !important; margin-bottom:10px; text-shadow: 3px 3px 3px #E2E2E2 !important;' class='subHeaderInfocard'>Confort auténtico </p><a class='btnInfoCardHomeLeft' href='#' style=''>Dama</a> <a href='www.google.com' class='btnInfoCardHomeRight' >Caballero</a>",
+      "callToActionUrl": "/fiesta/d",
+      "blockClass": "infoCardBlock1Home",
+      "textAlignment": "center",
+      "textMode" : "html",
+      "callToActionMode" : ""
+    },
+    "title" : "InforCard 2"
+  },
+  "info-card#infoCard3": {
+    "props": {
+      "id": "info-card-example3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/pexels-barbara.jpg",
+      "headline": "Deporte",
+      "subhead":"<p style='margin-top: 0px !important; margin-bottom:10px; text-shadow: 3px 3px 3px #E2E2E2 !important;' class='subHeaderInfocard'>Ejercicio con flexibilidad</p><a class='btnInfoCardHomeLeft' href='#' style=''>Dama</a> <a href='www.google.com' class='btnInfoCardHomeRight' >Caballero</a>",
+      "callToActionUrl": "/deporte/d",
+      "blockClass": "infoCardBlock1Home",
+      "textAlignment": "center",
+      "textMode" : "html",
+      "callToActionMode" : ""
+    },
+    "title" : "InforCard 3"
+  },
+
+  "info-card#infoCard1Container2": {
+    "props": {
+      "id": "info-card-example1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/pexels-athena-block2.jpg",
+      "headline": "Vive la libertad del movimiento",
+      "subhead":"Clinicus® calzado especial para pies con padecimientos",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infoCardBlock2Home",
+      "textAlignment": "center",
+      "callToActionText": "Conocer más"
+    },
+    "title" : "InforCard 4"
+  },
+  "info-card#infoCard2Container2": {
+    "props": {
+      "id": "info-card-example1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/pexels-cottonbro-block2.jpg",
+      "headline": "Afiliaté y forma parte de ONENA",
+      "subhead":"Gana $$$ al vender nuestro calzado",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infoCardBlock2Home",
+      "textAlignment": "center",
+      "callToActionText": "Conocer más"
+    },
+    "title" : "InforCard 5"
+  },
+
+  "info-card#infoCard1Container3": {
+    "props": {
+      "id": "infoCardBlock3Home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/tyron-harkiss-foster.jpg",
+      "headline": "REBAJAS",
+      "subhead":"-20%",
+      /* "callToActionText": "",
+      /* "callToActionUrl": "/sale/d", */
+      "blockClass": "infoCardBlock3Home",
+      "textAlignment": "center",
+      "width" : "35%"
+    },
+    "title" : "InforCard Rebajas"
+  },
+
+  "info-card#infoCard1Container3Movil": {
+    "props": {
+      "id": "infoCardBlock3Home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/tyron-harkiss-foster.jpg",
+      "headline": "REBAJAS",
+      "subhead":"-20%",
+      /* "callToActionText": "",
+      /* "callToActionUrl": "/sale/d", */
+      "blockClass": "infoCardBlock3Home",
+      "textAlignment": "center",
+      "width" : "100%"
+    }
+  },
+
+  "rich-text#titulo1ProductosHome": {
+    "props": {
+      "text": "## Para obsequiar a las mamás",
+      "blockClass": "titulo1ProductosHome",
+      "textAlignment" : "CENTER",
+      "textPosition" : "CENTER"
+    },
+    "title" : "Titulo Productos"
+  },
+  "flex-layout.row#productosHome": {
+    "children": ["list-context.product-list#productosHome"]
+  },
+
+  "flex-layout.row#productosHomeBlock2": {
+    "children": ["list-context.product-list#productosHomeBlock2"]
+  },
+
+
+
+
+
+
+
+  "list-context.product-list#productosHome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#bestseason"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "title" : "Productos"
+  },
+  "slider-layout#bestseason": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelfProductosHome",
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      }
+    }
+  },
+
+
+
+
+
+  "list-context.product-list#productosHomeBlock2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#sliderProductosHomeBlock2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass" : "productosHomeBlock2"
+    }
+  },
+  "slider-layout#sliderProductosHomeBlock2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "sliderProductosHomeBlock2"
+    }
+  },
+
+  "flex-layout.row#productosRecomendados" : {
+    "children": ["shelf.relatedProducts#productosRecomendados"]
+  },
+
+  "list-context.product-list#productosRecomendados": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelfProductosHome"
+    }
+  },
+
+
+  "flex-layout.row#shelfDamas": {
+    "children": ["list-context.product-list#dama"]
+  },
+
+  "list-context.product-list#dama": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#dama-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#dama-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+  "flex-layout.row#newslett": {
+    "children": ["rich-text#texts","newsletter"],
+    "props" : {
+      "fullWidth" : true,
+      "blockClass" : "layoutNewsletter"
+    }
+  },
+
+  "newsletter": {
+    "props": {
+        "label": "Suscribete a nuestro newsletter",
+        "placeholder": "tucorreo@tucorreo.com",
+        "blockClass" : "newsletter"
+    }
+  },
+  "rich-text#texts": {
+    "props": {
+      "text": "Recibe noticias \n de nuestros productos",
+      "blockClass": "texts"
+    },
+    "title" : "Titulo Newsletter"
+  },
+
+  "flex-layout.col#colLogo1Home":{
+      "children": [
+      "flex-layout.row#circleIcon1",  "rich-text#circleIcon1"
+    ],
+    "props" : {
+      "blockClass" : "logosHome"
+    }
+  },
+  "flex-layout.row#circleIcon1": {
+    "children": ["image#circleImageIcon1"],
+    "props" : {
+      "blockClass" : "CircleLogo"
+    }
+  },
+  "image#circleImageIcon1": {
+   "props": {
+     "src": "/arquivos/icon-awesome-shoe-prints.svg",
+     "maxHeight": 28,
+     "blockClass" : "ImageCircleLogo"
+   },
+   "title": "Imagen 1"
+  },
+  "rich-text#circleIcon1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Confort",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textCircleLogo"
+    },
+    "title": "Texto Imagen 1"
+  },
+
+  "flex-layout.col#colLogo2Home":{
+      "children": [
+      "flex-layout.row#circleIcon2",   "rich-text#circleIcon2"
+    ],
+    "props" : {
+      "blockClass" : "logosHome"
+    }
+  },
+  "flex-layout.row#circleIcon2": {
+    "children": ["image#circleImageIcon2"],
+    "props" : {
+      "blockClass" : "CircleLogo"
+    }
+  },
+  "image#circleImageIcon2": {
+     "props": {
+       "src": "/arquivos/ionic-md-lock.png",
+       "maxHeight": 28,
+       "blockClass" : "ImageCircleLogo"
+     },
+     "title": "Imagen 2"
+  },
+
+  "rich-text#circleIcon2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compra \n Segura",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textCircleLogo"
+    },
+    "title": "Texto Imagen 2"
+  },
+
+  "flex-layout.col#colLogo3Home":{
+      "children": [
+      "flex-layout.row#circleIcon3", "rich-text#circleIcon3"
+    ],
+    "props" : {
+      "blockClass" : "logosHome"
+    }
+  },
+  "flex-layout.row#circleIcon3": {
+    "children": ["image#circleImageIcon3"],
+    "props" : {
+      "blockClass" : "CircleLogo"
+    }
+  },
+  "image#circleImageIcon3": {
+     "props": {
+       "src": "/arquivos/awesome-credit-card.png",
+       "maxHeight": 28,
+       "blockClass" : "ImageCircleLogo"
+     },
+     "title": "Imagen 3"
+  },
+
+  "rich-text#circleIcon3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Metodos \n de pago",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textCircleLogo"
+    },
+    "title": "Texto Imagen 3"
+  },
+
+  "flex-layout.col#colLogo4Home":{
+      "children": [
+      "flex-layout.row#circleIcon4", "rich-text#circleIcon4"
+    ],
+    "props" : {
+      "blockClass" : "logosHome"
+    }
+  },
+  "flex-layout.row#circleIcon4": {
+    "children": ["image#circleImageIcon4"],
+    "props" : {
+      "blockClass" : "CircleLogo"
+    }
+  },
+  "image#circleImageIcon4": {
+     "props": {
+       "src": "/arquivos/awesome-box-open.png",
+       "maxHeight": 28,
+       "blockClass" : "ImageCircleLogo"
+     },
+     "title": "Imagen 4"
+  },
+
+  "rich-text#circleIcon4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Envio \n gratis",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textCircleLogo"
+    },
+    "title": "Texto Imagen 4"
+  },
+
+
+    "flex-layout.col#colLogo5Home":{
+        "children": [
+        "flex-layout.row#circleIcon5", "rich-text#circleIcon5"
+      ],
+      "props" : {
+        "blockClass" : "logosHome"
+      }
+    },
+    "flex-layout.row#circleIcon5": {
+      "children": ["image#circleImageIcon5"],
+      "props" : {
+        "blockClass" : "CircleLogo"
+      }
+    },
+    "image#circleImageIcon5": {
+       "props": {
+         "src": "/arquivos/awesome-truck.png",
+         "maxHeight": 28,
+         "blockClass" : "ImageCircleLogo"
+       },
+       "title": "Imagen 5"
+    },
+
+    "rich-text#circleIcon5": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Envio \n rapido",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "textCircleLogo"
+      },
+      "title": "Texto Imagen 5"
+    }
+
+
+
+}

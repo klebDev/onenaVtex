@@ -1,0 +1,463 @@
+{
+    "store.custom#catalogos": {
+    "blocks": [
+      "flex-layout.row#cats"
+    ]
+  },
+"flex-layout.row#cats":{
+    "children":[
+        "flex-layout.col#colcats"
+    ]
+},
+"flex-layout.col#colcats":{
+    "props":{
+        "blockClass" : "rowCats"
+    },
+    "children":[
+        "rich-text#catTitle",
+        "flex-layout.row#catalogos"
+    ]
+}, 
+"rich-text#catTitle":{
+    "props": {
+        "text": "## NUEVOS CATÁLOGOS",
+        "blockClass": "catTitle",
+        "textAlignment" : "CENTER",
+        "textPosition" : "CENTER",
+        "fullWidth": true
+    }
+},
+"flex-layout.row#catalogos":{  
+    "children":[
+        "slider-layout#catalogos"
+        //"flex-layout.col#colcat1",
+        //"flex-layout.col#colcat2",
+        //"flex-layout.col#colcat3",
+        //"flex-layout.col#colcat4"
+        //"flex-layout.col#colcat5"
+    ]
+},
+
+"slider-layout#catalogos": {
+    "children": [
+        "flex-layout.col#colcat1",
+        "flex-layout.col#colcat2",
+        "flex-layout.col#colcat3",
+        "flex-layout.col#colcat4",
+        "flex-layout.col#colcat5",
+        "flex-layout.col#colcat6"
+
+        //"flex-layout.col#colcat5"
+    ],"props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots":"desktopOnly",
+        "blockClass": ["carousel","back"],
+        "autoplay":{
+            "timeout": 4000,
+            "stopOnHover": true
+        }
+      }
+  },
+
+"flex-layout.col#colcat1":{
+    "children":[
+        "flex-layout.row#imgcat1",
+        "flex-layout.row#textcat1",
+        "flex-layout.row#downlink1"
+        
+    ],"props":{
+        "blockClass":"contcat"
+    }
+},
+"flex-layout.row#imgcat1":{
+    "children":[
+        "image#catalogo1"
+    ],"props":{
+        "blockClass":"imgcolcat"
+    }
+},
+"image#catalogo1":{
+    "props":{
+        "src":"assets/comodidad.webp",
+        "maxHeight":319,
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/onena-temporada-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+"flex-layout.row#textcat1":{
+    "children":[
+        "rich-text#contcat1"
+    ],"props":{
+        "blockClass": "contcatext"
+    }
+},
+"rich-text#contcat1":{
+    "props":{
+        "text":"#### ONENA \n #### Otoño - Invierno \n [Link](https://www.flipsnack.com/BE66E9BBDC9/onena-temporada-oto-o-invierno-2022/full-view.html)",
+        "blockClass":"txtcat"
+    }
+},
+"flex-layout.row#downlink1":{
+    "children":[
+        "flex-layout.col#downlinkcont1"
+    ],
+    "props":{
+        "blockClass":"downCont"
+    }
+},
+"flex-layout.col#downlinkcont1":{
+    "children":[
+        "image#descarga"
+    ],
+    "props":{
+        "horizontalAlign": "center"
+    }
+},
+"image#descarga":{
+    "props":{
+        "height": 30,
+        "src": "assets/download.svg",
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/onena-temporada-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+"flex-layout.col#colcat2":{
+    "children":[
+        "flex-layout.row#imgcat2",
+        "flex-layout.row#textcat2",
+        "flex-layout.row#downlink2"
+        
+    ],"props":{
+        "blockClass":"contcat"
+    }
+},
+"flex-layout.row#imgcat2":{
+    "children":[
+        "image#catalogo2"
+    ],"props":{
+        "blockClass":"imgcolcat"
+    }
+},
+"image#catalogo2":{
+    "props":{
+        "src":"assets/dama.webp",
+        "maxHeight":319,
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/cl-nicus-dama-temporada-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+"flex-layout.row#textcat2":{
+    "children":[
+        "rich-text#contcat2"
+    ],"props":{
+        "blockClass": "contcatext"
+    }
+},
+"rich-text#contcat2":{
+    "props":{
+        "text":"#### CLÍNICUS DAMA \n #### Otoño - Invierno \n [Link](https://www.flipsnack.com/BE66E9BBDC9/cl-nicus-dama-temporada-oto-o-invierno-2022/full-view.html)",
+        "blockClass":"txtcat"
+    }
+},
+"flex-layout.row#downlink2":{
+    "children":[
+        "flex-layout.col#downlinkcont2"
+    ],
+    "props":{
+        "blockClass":"downCont"
+    }
+},
+"flex-layout.col#downlinkcont2":{
+    "children":[
+        "image#descarga2"
+    ],
+    "props":{
+        "horizontalAlign": "center"
+    }
+},
+"image#descarga2":{
+    "props":{
+        "height": 30,
+        "src": "assets/download.svg",
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/cl-nicus-dama-temporada-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+"flex-layout.col#colcat3":{
+    "children":[
+        "flex-layout.row#imgcat3",
+        "flex-layout.row#textcat3",
+        "flex-layout.row#downlink3"
+        
+    ],"props":{
+        "blockClass":"contcat"
+    }
+},
+"flex-layout.row#imgcat3":{
+    "children":[
+        "image#catalogo3"
+    ],"props":{
+        "blockClass":"imgcolcat"
+    }
+},
+"image#catalogo3":{
+    "props":{
+        "src":"assets/caballero.webp",
+        "maxHeight":319,
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/cl-nicus-caballero-temporada-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+"flex-layout.row#textcat3":{
+    "children":[
+        "rich-text#contcat3"
+    ],"props":{
+        "blockClass": "contcatext"
+    }
+},
+"rich-text#contcat3":{
+    "props":{
+        "text":"#### CLÍNICUS CABALLERO \n #### Otoño - Invierno \n [Link](https://www.flipsnack.com/BE66E9BBDC9/cl-nicus-caballero-temporada-oto-o-invierno-2022/full-view.html)",
+        "blockClass":"txtcat"
+    }
+},
+"flex-layout.row#downlink3":{
+    "children":[
+        "flex-layout.col#downlinkcont3"
+    ],
+    "props":{
+        "blockClass":"downCont"
+    }
+},
+"flex-layout.col#downlinkcont3":{
+    "children":[
+        "image#descarga3"
+    ],
+    "props":{
+        "horizontalAlign": "center"
+    }
+},
+"image#descarga3":{
+    "props":{
+        "height": 30,
+        "src": "assets/download.svg",
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/cl-nicus-caballero-temporada-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+
+"flex-layout.col#colcat4":{
+    "children":[
+        "flex-layout.row#imgcat4",
+        "flex-layout.row#textcat4",
+        "flex-layout.row#downlink4"
+        
+    ],"props":{
+        "blockClass":"contcat"
+    }
+},
+"flex-layout.row#imgcat4":{
+    "children":[
+        "image#catalogo4"
+    ],"props":{
+        "blockClass":"imgcolcat"
+    }
+},
+"image#catalogo4":{
+    "props":{
+        "src":"assets/estilo.webp",
+        "maxHeight":319,
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/juv-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+"flex-layout.row#textcat4":{
+    "children":[
+        "rich-text#contcat4"
+    ],"props":{
+        "blockClass": "contcatext"
+    }
+},
+"rich-text#contcat4":{
+    "props":{
+        "text":"#### JUVÉ \n #### Otoño - Invierno \n [Link](https://www.flipsnack.com/BE66E9BBDC9/juv-oto-o-invierno-2022/full-view.html)",
+        "blockClass":"txtcat"
+    }
+},
+"flex-layout.row#downlink4":{
+    "children":[
+        "flex-layout.col#downlinkcont4"
+    ],
+    "props":{
+        "blockClass":"downCont"
+    }
+},
+"flex-layout.col#downlinkcont4":{
+    "children":[
+        "image#descarga4"
+    ],
+    "props":{
+        "horizontalAlign": "center"
+    }
+},
+"image#descarga4":{
+    "props":{
+        "height": 30,
+        "src": "assets/download.svg",
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/juv-oto-o-invierno-2022/full-view.html",
+            "newTab": true
+        }
+    }
+},
+
+ "flex-layout.col#colcat5":{
+     "children":[
+         "flex-layout.row#imgcat5",
+         "flex-layout.row#textcat5",
+        "flex-layout.row#downlink5"
+        
+     ],"props":{
+         "blockClass":"contcat"
+     }
+ },
+"flex-layout.row#imgcat5":{
+     "children":[
+        "image#catalogo5"
+     ],"props":{
+         "blockClass":"imgcolcat"
+     }
+ },
+ "image#catalogo5":{
+     "props":{
+         "src":"assets/apparel.jpg",
+         "maxHeight":319,
+         "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/onena-apparel/full-view.html",
+            "newTab": true
+        }
+     }
+ },
+ "flex-layout.row#textcat5":{
+     "children":[
+        "rich-text#contcat5"
+    ],"props":{
+         "blockClass": "contcatext"
+     }
+ },
+ "rich-text#contcat5":{
+     "props":{
+        "text":"#### ONENA APPAREL \n #### Otoño - Invierno \n [Link](https://www.flipsnack.com/BE66E9BBDC9/onena-apparel/full-view.html)",
+         "blockClass":"txtcat"
+     }
+ },
+ "flex-layout.row#downlink5":{
+     "children":[
+         "flex-layout.col#downlinkcont5"
+     ],
+     "props":{
+         "blockClass":"downCont"
+     }
+ },
+ "flex-layout.col#downlinkcont5":{
+     "children":[
+        "image#descarga5"
+     ],
+     "props":{
+        "horizontalAlign": "center"
+     }
+ },
+ "image#descarga5":{
+     "props":{
+         "height": 30,
+         "src": "assets/download.svg",
+         "link": {
+             "url": "https://www.flipsnack.com/BE66E9BBDC9/onena-apparel/full-view.html",
+             "newTab": true
+         }
+     }
+ },
+
+ "flex-layout.col#colcat6":{
+    "children":[
+        "flex-layout.row#imgcat6",
+        "flex-layout.row#textcat6",
+        "flex-layout.row#downlink6"
+        
+    ],"props":{
+        "blockClass":"contcat"
+    }
+},
+"flex-layout.row#imgcat6":{
+    "children":[
+        "image#catalogo6"
+    ],"props":{
+        "blockClass":"imgcolcat"
+    }
+},
+"image#catalogo6":{
+    "props":{
+        "src":"/arquivos/caba-clin.jpg",
+        "maxHeight":319
+    }
+},
+"flex-layout.row#textcat6":{
+    "children":[
+        "rich-text#contcat6"
+    ],"props":{
+        "blockClass": "contcatext"
+    }
+},
+"rich-text#contcat6":{
+    "props":{
+        "text":"#### tiutlo \n #### Temporada \n [Link]()",
+        "blockClass":"txtcat"
+    }
+},
+"flex-layout.row#downlink6":{
+    "children":[
+        "flex-layout.col#downlinkcont6"
+    ],
+    "props":{
+        "blockClass":"downCont"
+    }
+},
+"flex-layout.col#downlinkcont6":{
+    "children":[
+        "image#descarga6"
+    ],
+    "props":{
+        "horizontalAlign": "center"
+    }
+},
+"image#descarga6":{
+    "props":{
+        "height": 30,
+        "src": "assets/download.svg",
+        "link": {
+            "url": "https://www.flipsnack.com/BE66E9BBDC9/clinicus-cab-oi-2021-1/download-pdf.html",
+            "newTab": true
+        }
+    }
+}
+} 

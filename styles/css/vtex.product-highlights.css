@@ -1,0 +1,18 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightText {
+  background: #F4CFDF;
+  border-radius: 0px;
+  padding: 5px 10px;
+  top: 0px;
+  left: -2px;
+  font-family: 'GothamBook';
+  font-size: 12px;
+  color: #292929;
+  text-align: center;
+}

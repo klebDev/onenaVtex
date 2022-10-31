@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#credes": {
+      "children": [
+        "flex-layout.col#r1",
+        "flex-layout.col#r2",
+        "flex-layout.col#r3"
+  
+      ],
+      "props": {
+        "blockClass": "credes"
+      }
+    },
+  
+    "flex-layout.col#r1": {
+      "children": [
+        "image#re1"
+      ]
+    },
+    "image#re1": {
+      "props": {
+        "src": "https://onenamx.vteximg.com.br/arquivos/f1.png",
+        "maxHeight": "24px"
+      }
+    },
+    "flex-layout.col#r2": {
+      "children": [
+        "image#re2"
+      ]
+    },
+    "image#re2": {
+      "props": {
+        "src": "https://onenamx.vteximg.com.br/arquivos/f2.png",
+        "maxHeight": "24px"
+      }
+    },
+    "flex-layout.col#r3": {
+      "children": [
+        "image#re3"
+      ]
+    },
+    "image#re3": {
+      "props": {
+        "src": "https://onenamx.vteximg.com.br/arquivos/f3.png",
+        "maxHeight": "24px"
+      }
+    }
+  }

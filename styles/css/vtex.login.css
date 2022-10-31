@@ -1,0 +1,199 @@
+/*Ocultamos el texto entrar por defecto*/
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label)
+      :global(.vtex-login-2-x-label){
+        /* display:none; */
+}
+
+
+
+/*Añadimos el nuevo texto al boton de inicar sesion*/
+/* :global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label):after{
+        content: "Mi Cuenta";
+        visibility: visible;
+        font-family: 'GothamMedium';
+        color: #000000;
+        font-size: 16px;
+        letter-spacing: 0px;
+        margin-left: 0px;
+        text-transform: none;
+}
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label):before{
+        content: "Mi Cuenta" !important;
+        visibility: visible !important;
+        font-family: 'GothamMedium' !important;
+        color: #000000 !important;
+        font-size: 16px;
+        letter-spacing: 0px;
+        margin-left: 0px;
+        text-transform: none !important;
+} */
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      padding-right: 20px;
+      padding-left: 0px !important;
+}
+
+:global(.vtex-login-2-x-label ){
+  padding-left: 1px !important;
+}
+
+
+:global(.vtex-login-2-x-profileIcon){
+  display: none;
+}
+
+:global(.vtex-login-2-x-container)
+:global(.vtex-button)
+:global(.vtex-button__label)::before{
+  visibility:visible;
+  content: "";
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23DB7E30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>')  no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 74% 94%;
+  padding-left: 40px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 10px;
+  /* margin-right: -35px; */
+
+}
+
+/* :global(.vtex-login-2-x-profileIcon)::after{
+  visibility:visible;
+  background: url('data:image/svg+xml;utf8,\
+                    <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"\
+                     fill="none" stroke="%23E73743" stroke-width="2" stroke-linecap="round" \
+                     stroke-linejoin="round" class="feather feather-map-pin">\
+                      <path  d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z">\
+                      </path><circle cx="12" cy="10" r="3"></circle>\
+                    </svg>\
+  ')  no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-position:  0px;
+  background-size: 100% 127%;
+  padding-left: 50px;
+} */
+
+:global(.vtex-login-2-x-formTitle){
+  font-family: 'Gotham-Bold';
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-left: 0px;
+  text-transform: none;
+}
+
+:global(.vtex-login-2-x-sendButton)
+  :global(.vtex-button) {
+    background: #5784BA 0% 0%;
+    border-radius: 20px;
+    opacity: 1;
+    border-color:  #5784BA !important;
+}
+
+:global(.vtex-login-2-x-sendButton)
+  :global(.vtex-button)
+    :global(.vtex-button__label  .t-small){
+      text-transform: uppercase !important;
+      /* padding-bottom: 3px; */
+}
+
+:global(.vtex-login-2-x-inputContainer)
+  :global(.vtex-styleguide-9-x-input){
+    font-family: 'GothamBook';
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0px;
+    margin-left: 0px;
+    text-transform: none;
+}
+
+:global(.vtex-login-2-x-backButton)
+  :global(.vtex-button__label .t-small){
+    display: none;
+}
+
+:global(.vtex-login-2-x-dontHaveAccount){
+  font-family: 'GothamBook';
+  color: #292929;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+:global(.vtex-login-2-x-formFooter){
+  border-top-color: #DB7E30;
+}
+
+:global(.vtex-login-2-x-forgotPasswordLink){
+  font-family: 'GothamBook';
+  font-size: 14px;
+  color: #5784BA;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1025.00px) {
+  /*Ocultamos el texto entrar por defecto*/
+ /* :global(.vtex-login-2-x-container)
+    :global(.vtex-button)
+      :global(.vtex-button__label)
+        :global(.vtex-login-2-x-label){
+          display: hidden;
+  } */
+
+  /* :global(.vtex-login-2-x-container)
+    :global(.vtex-button)
+      :global(.vtex-button__label)::after{
+          content: "";
+          visibility: visible;
+          background: url('data:image/svg+xml;utf8,\
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23E73743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>\
+          ')  no-repeat center center / contain;
+          font-family: 'GothamMedium';
+          background-repeat: no-repeat;
+          background-position:  7px;
+          background-size: 60% 40px;
+          padding-left: 40px;
+          padding-top: 17px;
+          padding-bottom: 17px;
+  } */
+
+  :global(.vtex-login-2-x-container)
+    :global(.vtex-button){
+      width: 29px;
+  }
+
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button )
+  :global(.vtex-button__label)::after{
+    padding-bottom: auto;
+    margin-right: auto;
+
+  }
+
+
+  :global(.vtex-login-2-x-container)
+    :global(.vtex-button)
+      :global(.vtex-button__label){
+        padding-right: 3px !important;
+        padding-left: 9px !important;
+  }
+
+
+
+}

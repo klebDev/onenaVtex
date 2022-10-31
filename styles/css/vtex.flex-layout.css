@@ -1,0 +1,265 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+.vtex-store-footer-2-x-footerLayout{
+  background-color: #03044e;
+}
+:global(.vtex-store-components-3-x-newsletter){
+  background-color: #a7afbd;
+}
+:global(.vtex-flex-layout-0-x-flexRow--pagosMobile){
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagosMobile)
+:global(.vtex-flex-layout-0-x-flexRowContent--pagosMobile){
+    align-items: center;
+    display: inline-flex;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--pagosMobile2){
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagosMobile2)
+:global(.vtex-flex-layout-0-x-flexRowContent--pagosMobile2){
+    align-items: center;
+    display: inline-flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pagosMobile)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pagosMobile2)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+:global(.vtex-rich-text-0-x-container--texts){
+  background-color: #9AC8EB;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterCol){
+  min-width: 311px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--orderByAndSwitcher){
+  margin-left: 76px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterCol){
+  padding-left: 28px !important;
+  padding-right: 28px !important;
+  padding-top: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--pagos){
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: center;
+}
+:global(.vtex-rich-text-0-x-container--texts){
+  background-color: #9AC8EB;
+}
+:global(.vtex-my-account-1-x-boxContainer){
+  background-color: #f0f0f0;
+}
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-button__label){
+  color: #E73743;
+}
+:global(.vtex-my-account-1-x-dataEntryLabel) {
+  color: #000000;
+  font-weight: 600;
+}
+:global(.vtex-my-account-1-x-dataEntryChildren){
+  color: #292929;
+}
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-button){ 
+  background-color: initial;
+  border: initial;
+}
+:global(.vtex-account__create-card){
+  background-color: #f0f0f0;
+}
+.vtex-profile-form-3-x-toggleBusinessButtonWrapper {
+  visibility: hidden;
+}
+
+.bg-action-primary {
+  background-color: #f0f0f0;
+}
+.b--action-primary {
+  border-color: #f0f0f0;
+}
+.c-link {
+  color: rgb(90 90 90);
+}
+.vtex__icon-external-link {
+  color: #E73743;
+}
+
+:global(.vtex-account_menu-link){
+  font-family: 'GothamMedium';
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #292929;
+}
+
+:global(.vtex-my-account-1-x-menu){
+  width: 30%;
+}
+
+:global(.vtex-my-account-1-x-menuLink){
+  font-family: 'GothamMedium';
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #292929;
+  font-weight: normal;
+}
+
+:global(.vtex-my-account-1-x-userGreeting){
+  font-family: 'Gotham-Bold';
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #292929;
+  font-weight: normal;
+}
+
+:global(.vtex-account_menu-link) .nowrap {
+  font-weight: normal;
+}
+
+:global(.vtex-my-account-1-x-dataEntryLabel){
+  font-family: 'GothamBook';
+  font-size: 20px ;
+  color: #292929
+}
+
+
+
+@media (max-width: 885.98px) {
+    
+  :global(.vtex-my-account-1-x-dataEntryLabel){
+    font-family: 'GothamBook';
+    font-size: 16px ;
+    color: #292929
+  }
+}

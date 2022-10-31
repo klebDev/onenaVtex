@@ -1,0 +1,292 @@
+{
+  "store.custom#paginaContenido":{
+    "blocks" : [
+      "responsive-layout.desktop#paginaContenido",
+      "responsive-layout.tablet#paginaContenido",
+      "responsive-layout.phone#paginaContenido"
+    ]
+  },
+
+  "responsive-layout.desktop#paginaContenido":{
+    "children":[
+      "rich-text#titleContenidoPagina",
+      "rich-text#subtitle1ContenidoPagina",
+      "rich-text#text1ContenidoPagina",
+
+      "rich-text#subtitle2ContenidoPagina",
+      "rich-text#text2ContenidoPagina",
+
+      "rich-text#subtitle3ContenidoPagina",
+      "rich-text#heading3ContenidoPagina",
+      "rich-text#text3ContenidoPagina",
+      "rich-text#heading3ContenidoPagina2",
+      "rich-text#text3ContenidoPagina2",
+
+      "rich-text#subtitle4ContenidoPagina",
+      "rich-text#text4ContenidoPagina2",
+
+      "rich-text#subtitle5ContenidoPagina",
+      "rich-text#heading5ContenidoPagina",
+      "rich-text#text5ContenidoPagina",
+
+      "rich-text#heading6ContenidoPagina",
+      "rich-text#text6ContenidoPagina",
+
+      "rich-text#heading7ContenidoPagina",
+      "rich-text#text7ContenidoPagina"
+    ]
+  },
+
+  "responsive-layout.tablet#paginaContenido":{
+    "children":[
+      "rich-text#titleContenidoPagina",
+      "rich-text#subtitle1ContenidoPagina",
+      "rich-text#text1ContenidoPagina",
+
+      "rich-text#subtitle2ContenidoPagina",
+      "rich-text#text2ContenidoPagina",
+
+      "rich-text#subtitle3ContenidoPagina",
+      "rich-text#heading3ContenidoPagina",
+      "rich-text#text3ContenidoPagina",
+      "rich-text#heading3ContenidoPagina2",
+      "rich-text#text3ContenidoPagina2",
+
+      "rich-text#subtitle4ContenidoPagina",
+      "rich-text#text4ContenidoPagina2",
+
+      "rich-text#subtitle5ContenidoPagina",
+      "rich-text#heading5ContenidoPagina",
+      "rich-text#text5ContenidoPagina",
+
+      "rich-text#heading6ContenidoPagina",
+      "rich-text#text6ContenidoPagina",
+
+      "rich-text#heading7ContenidoPagina",
+      "rich-text#text7ContenidoPagina"
+    ]
+  },
+
+  "responsive-layout.phone#paginaContenido":{
+    "children":[
+      "rich-text#titleContenidoPagina",
+      "rich-text#subtitle1ContenidoPagina",
+      "rich-text#text1ContenidoPagina",
+
+      "rich-text#subtitle2ContenidoPagina",
+      "rich-text#text2ContenidoPagina",
+
+      "rich-text#subtitle3ContenidoPagina",
+      "rich-text#heading3ContenidoPagina",
+      "rich-text#text3ContenidoPagina",
+      "rich-text#heading3ContenidoPagina2",
+      "rich-text#text3ContenidoPagina2",
+
+      "rich-text#subtitle4ContenidoPagina",
+      "rich-text#text4ContenidoPagina2",
+
+      "rich-text#subtitle5ContenidoPagina",
+      "rich-text#heading5ContenidoPagina",
+      "rich-text#text5ContenidoPagina",
+
+      "rich-text#heading6ContenidoPagina",
+      "rich-text#text6ContenidoPagina",
+
+      "rich-text#heading7ContenidoPagina",
+      "rich-text#text7ContenidoPagina"
+    ]
+  },
+
+  "rich-text#titleContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Páginas Contenido",
+      "blockClass": "titleIntitucional"
+    }
+  },
+
+  "rich-text#subtitle1ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Pago",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text1ContenidoPagina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Puedes realizar tu pago en línea con tarjeta de débito, tarjeta de crédito o vía PayPal.* Al hacer tu pago te daremos un número de orden con el que podrás dar seguimiento a tu pedido. Si tu pago es exitoso recibirás la confirmación de compra en tu correo electrónico y enviaremos los productos a tu domicilio. \n\n Si hay algún problema a la hora de procesar tu pago te haremos llegar una notificación por correo electrónico o llamaremos al número que has registrado en el sitio.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle2ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Solicitud de documentos",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text2ContenidoPagina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Por cuestiones de seguridad para nuestros clientes, nuestro sistema evalúa todas las transacciones que se realizan, en caso de que considere alguna transacción como riesgosa por seguridad de nuestros usuarios y la empresa nos pondremos en contacto contigo para solicitarte alguna de la siguiente documentación: \n- Copia o foto de IFE \n- Copia o foto de tarjeta con la que se realiza el cargo (en esta para evitar que no te sientas seguro por favor tapa los números de la tarjeta a excepción de los últimos 4). \n-Estado de cuenta relacionado a la tarjeta con la que se realizo la compra. \n\nDe igual forma en caso de no poder comprobar la información que consideramos necesaria para comprobar la identidad nos reservamos el derecho a cancelar el pedido.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle3ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Garantía de productos Onena",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+
+  "rich-text#heading3ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Proceso de Garantía TBC",
+      "blockClass": "headingPagina"
+    }
+  },
+
+  "rich-text#text3ContenidoPagina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Todo el calzado Onena cuenta con una garantía por hasta 30 días naturales contra defectos de fabricación a partir que recibes tu producto. Los daños que pueda sufrir la mercancía durante su envío o maniobra de entrega quedan fuera de esta garantía \n 1. Ponte en contacto con nuestro equipo de atención al cliente en los siguientes números 01 55 53836372 en CDMX y al 01800 634 2042 para el resto de la República o a través de del correo electrónico contacto@danzar.com.mx, para hacer valida tu garantía. Es necesario que nos brindes la siguiente información: Nombre del titular de la compra, número de orden, dirección de envío y dos fotografías como evidencia del daño que presente el calzado. \n 2. En un lapso no mayor a 48 horas hábiles, recibirás un correo electrónico con el número de folio de la devolución y una etiqueta para que la imprimas. Vuelve a poner el producto en su empaque original dentro de la caja de cartón y pega al exterior la etiqueta impresa. \n 3. Solicita la recolección a tu domicilio de la paquetería asignada, estos vienen en el correo que anteriormente te enviamos. O bien puedes ir a la oficina de la paquetería más cercana de donde te encuentres.\n 4. Una vez que recibamos tu producto dañado, nos pondremos en contacto contigo para brindarte las opciones de reembolso o cambio del producto dañado.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#heading3ContenidoPagina2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "CAMBIOS",
+      "blockClass": "headingPagina"
+    }
+  },
+
+  "rich-text#text3ContenidoPagina2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En caso de requerir un cambio de talla o modelo, deberás contactarnos a través de nuestro equipo de atención al cliente en los siguientes números 55 53836372 en CDMX y al 800 634 2042 para el resto de la república, por correo electrónico contacto@danzar.com.mx o vía WhatsApp al 722 631 0808, proporcionarnos tu referencia de compra y nombre del titular que la realizó. Asimismo, deberás indicarnos si deseas realizar un cambio en sucursal, para brindarte las instrucciones o bien, mediante una DEVOLUCIÓN y reembolso en cupón para una nueva compra. \n\n **NOTA.** En el caso de productos en promoción solo se podrá realizar cambio con recompra en onena.mx",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle4ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Reembolsos",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+
+  "rich-text#text3ContenidoPagina2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Si el pago fue efectuado por tarjeta de débito o crédito, el reembolso se realizará a través de una devolución de cargo en la misma tarjeta que fue utilizada. \n En este caso el reembolso se realiza de manera automática a través de la plataforma de pagos de Onena, sin embargo dependiendo de la institución bancaria, este podrá reflejarse hasta 30 días hábiles después de realizado el reembolso.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle4ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Políticas de Envíos / Entregas y Términos Logísticos y de Servicio",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+
+  "rich-text#text4ContenidoPagina2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Los clientes de onena.mx pueden escoger entre los dos métodos de envío con los que contamos, el costo está basado en el tipo que escoja así como el tiempo de entrega. \n Por favor revisa las opciones a continuación el detalle de cada uno, envíos únicamente dentro de la república mexicana. \n\n **TBC** \n- Envío gratis a partir de 2,000 pesos \n-Envío estándar 150 pesos \n\n**En algunas ciudades consideradas como “zonas extendidas” es posible que el envío tome de 7 a 15 días hábiles. Si tu código postal llegara a ser el caso, se te indicará vía correo electrónico al enviarte tu guía de rastreo. En ocasiones nuestro prestador de servicio logístico ocupa un tercero para realizar la entrega. ",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle5ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Bolsa de trabajo Onena",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+
+  "rich-text#heading5ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Promotoras de Ventas Ciudad de México y Zona conurbada",
+      "blockClass": "headingPagina"
+    }
+  },
+
+
+  "rich-text#text5ContenidoPagina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "\n**Requisitos:** \n- Edad: 20 a 45 años. \n- Sexo: Femenino. \n- Escolaridad: Secundaria. \n- Experiencia: 1 año en servicio y atención a clientes, gusto por las ventas, deseable ventas de catálogos y afiliación de clientes. \n\n**Ofrecemos:** Sueldo base $ 6,191.87, prestaciones de ley, fondo de ahorro, atractivas comisiones, contratación directa y de planta.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#heading6ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Vendedor de piso",
+      "blockClass": "headingPagina"
+    }
+  },
+
+  "rich-text#text6ContenidoPagina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "\n**Requisitos:** \n- Edad: 20 a 45 años. \n- Sexo: Indistinto. \n- Escolaridad: Secundaria. \n\n**Experiencia:** \n 1 año en ventas, atención a clientes, manejo de computación, gusto por las ventas, proactivo. Zonas de trabajo: Zócalo de la Ciudad de México, Tacuba, Tacubaya, Iztapalapa. \n\n**Ofrecemos** \nSueldo base $6,191.87, prestaciones de ley, fondo de ahorro, atractivas comisiones, capacitación, crecimiento profesional, excelente ambiente de trabajo.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#heading7ContenidoPagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Auxiliares de almacén",
+      "blockClass": "headingPagina"
+    }
+  },
+
+  "rich-text#text7ContenidoPagina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Requisitos:** \n- Edad: 19 a 25 años. \n- Sexo: Indistinto. \n- Escolaridad: Secundaria. \n\n**Experiencia:** 1 año de experiencia en almacén, entradas, salidas, traspasos, manejo de computación, activo, si no tiene experiencia capacitamos. \n\n**Ofrecemos**: Sueldo base $5,512.00 prestaciones de ley, fondo de ahorro, capacitación, crecimiento profesional, excelente ambiente de trabajo. Zona de trabajo Zócalo de la Ciudad de México, Iztapalapa, Azcapotzalco.",
+      "blockClass": "textIntitucional"
+    }
+  }
+
+
+}

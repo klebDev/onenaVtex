@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#redess": {
+      "children": [
+        "flex-layout.col#redess1",
+        "flex-layout.col#redess2",
+        "flex-layout.col#redess3",
+        "flex-layout.col#redess4"
+
+      ],
+      "props": {
+        "blockClass": "redess"
+      }
+    },
+
+    "flex-layout.col#redess1": {
+      "children": [
+        "image#redes1"
+      ],
+      "props": {
+        "blockClass": "redess"
+      }
+    },
+    "image#redes1": {
+      "props": {
+        "src": "/arquivos/facebook-icon-white.svg",
+        "maxHeight": "24px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess2": {
+      "children": [
+        "image#redes2"
+      ]
+    },
+    "image#redes2": {
+      "props": {
+        "src": "/arquivos/instagram.png",
+        "maxHeight": "24px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess3": {
+      "children": [
+        "image#redes3"
+      ]
+    },
+    "image#redes3": {
+      "props": {
+        "src": "/arquivos/youtube-icon.svg",
+        "maxHeight": "24px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess4": {
+      "children": [
+        "image#redes4"
+      ]
+    },
+    "image#redes4": {
+      "props": {
+        "src": "/arquivos/linkedin-icon.svg",
+        "maxHeight": "24px",
+        "blockClass" : "imgSocial"
+      }
+    }
+  }

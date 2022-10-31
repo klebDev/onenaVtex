@@ -1,0 +1,176 @@
+{
+    "slider-layout#slidercategoriasMovilClinicus": {
+        "title": "Contenido Slider Cats",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "blockClass": "slidercategoriasMovil",
+          "showPaginationDots" : "never",
+          "usePagination" : "false",
+          "width" : "10%"
+        },
+        "children": [
+          "flex-layout.col#cat1Clinicus",
+          "flex-layout.col#cat2Clinicus",
+          "flex-layout.col#cat3Clinicus",
+          "flex-layout.col#cat4Clinicus",
+          "flex-layout.col#cat5Clinicus"
+        ]
+      },
+      "flex-layout.col#cat1Clinicus": {
+        "title": "Categoría 1",
+        "children": [
+          "image#cat1Clinicus",
+          "rich-text#cat1Clinicus"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat1Clinicus": {
+        "title": "Imagen cat1",
+        "props": {
+          "height": 218,
+          "src": "/arquivos/clinicus-sandalia-de-piel-negro-4523.png",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat1Clinicus": {
+        "title": "Texto cat 1",
+        "props": {
+          "text": "SANDALIAS",
+          "textAlignment": "center",
+          "textPosition": "center"
+        }
+      },
+    
+      "flex-layout.col#cat2Clinicus": {
+        "title": "Categoría 2",
+        "children": [
+          "image#cat2Clinicus",
+          "rich-text#cat2Clinicus"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat2Clinicus": {
+        "title": "Imagen cat2",
+        "props": {
+          "height": 218,
+          "src": "/arquivos/sample2.png",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat2Clinicus": {
+        "title": "Texto cat 2",
+        "props": {
+          "text": "CASUAL Y SPORT",
+          "textAlignment": "center",
+          "textPosition": "center"
+        }
+      },
+    
+      "flex-layout.col#cat3Clinicus": {
+        "title": "Categoría 3",
+        "children": [
+          "image#cat3Clinicus",
+          "rich-text#cat3Clinicus"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat3Clinicus": {
+        "title": "Imagen cat3",
+        "props": {
+          "height": 218,
+          "src": "/arquivos/product2.png",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat3Clinicus": {
+        "title": "Texto cat 3",
+        "props": {
+          "text": "BOTAS Y BOTINES",
+          "textAlignment": "center",
+          "textPosition": "center"
+        }
+      },
+      "flex-layout.col#cat4Clinicus": {
+        "title": "Categoría 4",
+        "children": [
+          "image#cat4Clinicus",
+          "rich-text#cat4Clinicus"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat4Clinicus": {
+        "title": "Imagen cat4",
+        "props": {
+          "height": 218,
+          "src": "/arquivos/product3.png",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat4Clinicus": {
+        "title": "Texto cat 4",
+        "props": {
+          "text": "PISO",
+          "textAlignment": "center",
+          "textPosition": "center"
+        }
+      },
+      "flex-layout.col#cat5Clinicus": {
+        "title": "Categoría 5",
+        "children": [
+          "image#cat5Clinicus"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "preventVerticalStretch" : false,
+          "paddingLeft": 0,
+          "paddingRight": 0
+        }
+      },
+    
+      "image#cat5Clinicus": {
+        "title": "Imagen cat4",
+        "props": {
+          "height": 35,
+          "with" : 35,
+          "src": "/arquivos/ionic-ios-arrow.svg",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "imgArrowMegaMenu"
+        }
+      }
+}

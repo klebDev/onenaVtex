@@ -1,0 +1,541 @@
+{
+  "store.custom#Terminos":{
+    "blocks" : [
+      "responsive-layout.desktop#Terminos",
+      "responsive-layout.tablet#Terminos",
+      "responsive-layout.phone#Terminos"
+    ]
+  },
+
+  "responsive-layout.desktop#Terminos":{
+    "children":[
+      "rich-text#titleTerminos",
+      "rich-text#subtitle1Terminos",
+      "rich-text#text1Terminos",
+      "rich-text#subtitle2Terminos",
+      "rich-text#text2Terminos",
+      "rich-text#subtitle3Terminos",
+      "rich-text#text3Terminos",
+      "rich-text#subtitle4Terminos",
+      "rich-text#text4Terminos",
+      "rich-text#subtitle5Terminos",
+      "rich-text#text5Terminos",
+      "rich-text#subtitle6Terminos",
+      "rich-text#text6Terminos",
+      "rich-text#subtitle7Terminos",
+      "rich-text#text7Terminos",
+      "rich-text#subtitle8Terminos",
+      "rich-text#text8Terminos",
+      "rich-text#subtitle9Terminos",
+      "rich-text#text9Terminos",
+      "rich-text#subtitle10Terminos",
+      "rich-text#text10Terminos",
+      "rich-text#subtitle11Terminos",
+      "rich-text#text11Terminos",
+      "rich-text#subtitle12Terminos",
+      "rich-text#text12Terminos",
+      "rich-text#subtitle13Terminos",
+      "rich-text#text13Terminos",
+      "rich-text#subtitle14Terminos",
+      "rich-text#text14Terminos",
+      "rich-text#subtitle15Terminos",
+      "rich-text#text15Terminos",
+      "rich-text#subtitle16Terminos",
+      "rich-text#text16Terminos",
+      "rich-text#subtitle17Terminos",
+      "rich-text#text17Terminos",
+      "rich-text#subtitle18Terminos",
+      "rich-text#text18Terminos",
+      "rich-text#subtitle19Terminos",
+      "rich-text#text19Terminos",
+      "rich-text#subtitle20Terminos",
+      "rich-text#text20Terminos",
+      "rich-text#subtitle21Terminos",
+      "rich-text#text21Terminos"
+    ]
+  },
+
+  "responsive-layout.tablet#Terminos":{
+    "children":[
+      "rich-text#titleTerminos",
+      "rich-text#subtitle1Terminos",
+      "rich-text#text1Terminos",
+      "rich-text#subtitle2Terminos",
+      "rich-text#text2Terminos",
+      "rich-text#subtitle3Terminos",
+      "rich-text#text3Terminos",
+      "rich-text#subtitle4Terminos",
+      "rich-text#text4Terminos",
+      "rich-text#subtitle5Terminos",
+      "rich-text#text5Terminos",
+      "rich-text#subtitle6Terminos",
+      "rich-text#text6Terminos",
+      "rich-text#subtitle7Terminos",
+      "rich-text#text7Terminos",
+      "rich-text#subtitle8Terminos",
+      "rich-text#text8Terminos",
+      "rich-text#subtitle9Terminos",
+      "rich-text#text9Terminos",
+      "rich-text#subtitle10Terminos",
+      "rich-text#text10Terminos",
+      "rich-text#subtitle11Terminos",
+      "rich-text#text11Terminos",
+      "rich-text#subtitle12Terminos",
+      "rich-text#text12Terminos",
+      "rich-text#subtitle13Terminos",
+      "rich-text#text13Terminos",
+      "rich-text#subtitle14Terminos",
+      "rich-text#text14Terminos",
+      "rich-text#subtitle15Terminos",
+      "rich-text#text15Terminos",
+      "rich-text#subtitle16Terminos",
+      "rich-text#text16Terminos",
+      "rich-text#subtitle17Terminos",
+      "rich-text#text17Terminos",
+      "rich-text#subtitle18Terminos",
+      "rich-text#text18Terminos",
+      "rich-text#subtitle19Terminos",
+      "rich-text#text19Terminos",
+      "rich-text#subtitle20Terminos",
+      "rich-text#text20Terminos",
+      "rich-text#subtitle21Terminos",
+      "rich-text#text21Terminos"
+    ]
+  },
+
+  "responsive-layout.phone#Terminos":{
+    "children":[
+      "rich-text#titleTerminos",
+      "rich-text#subtitle1Terminos",
+      "rich-text#text1Terminos",
+      "rich-text#subtitle2Terminos",
+      "rich-text#text2Terminos",
+      "rich-text#subtitle3Terminos",
+      "rich-text#text3Terminos",
+      "rich-text#subtitle4Terminos",
+      "rich-text#text4Terminos",
+      "rich-text#subtitle5Terminos",
+      "rich-text#text5Terminos",
+      "rich-text#subtitle6Terminos",
+      "rich-text#text6Terminos",
+      "rich-text#subtitle7Terminos",
+      "rich-text#text7Terminos",
+      "rich-text#subtitle8Terminos",
+      "rich-text#text8Terminos",
+      "rich-text#subtitle9Terminos",
+      "rich-text#text9Terminos",
+      "rich-text#subtitle10Terminos",
+      "rich-text#text10Terminos",
+      "rich-text#subtitle11Terminos",
+      "rich-text#text11Terminos",
+      "rich-text#subtitle12Terminos",
+      "rich-text#text12Terminos",
+      "rich-text#subtitle13Terminos",
+      "rich-text#text13Terminos",
+      "rich-text#subtitle14Terminos",
+      "rich-text#text14Terminos",
+      "rich-text#subtitle15Terminos",
+      "rich-text#text15Terminos",
+      "rich-text#subtitle16Terminos",
+      "rich-text#text16Terminos",
+      "rich-text#subtitle17Terminos",
+      "rich-text#text17Terminos",
+      "rich-text#subtitle18Terminos",
+      "rich-text#text18Terminos",
+      "rich-text#subtitle19Terminos",
+      "rich-text#text19Terminos",
+      "rich-text#subtitle20Terminos",
+      "rich-text#text20Terminos",
+      "rich-text#subtitle21Terminos",
+      "rich-text#text21Terminos"
+    ]
+  },
+
+  "rich-text#titleTerminos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TERMINOS Y CONDICIONES",
+      "blockClass": "titleIntitucional"
+    }
+  },
+
+  "rich-text#subtitle1Terminos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Términos de uso",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text1Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Los presentes Términos y Condiciones rigen la relación entre usted (en adelante referido como “Cliente”) y Danzar SA de CV. (en adelante referido como “Onena”) con relación a los servicios y productos disponibles al Cliente a través del sitio web www.Onena.mx (en adelante referido como “página web”); a su vez, los presentes términos y condiciones regulan el uso de la Página Web, del que Onena, con razón social Danzar SA de CV, es propietario, con domicilio fiscal en CIRCUITO DE LA INDUSTRIA NORTE 59, LERMA DE VILLADA , PARQUE INDUSTRIAL LERMA, CP 52000, ESTADO DE MEXICO",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle2Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Aceptación de los términos y condiciones",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text2Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Al ingresar y utilizar ésta Página Web el Cliente está aceptando los Términos y Condiciones de uso contenidos y declara expresamente su aceptación utilizando para tal efecto medios electrónicos. \n\n En caso de no aceptar en forma absoluta y completa los Términos y Condiciones de este contrato, el Cliente deberá abstenerse de utilizar, observar y acceder a la Página Web. \n\n Onena no guardará una copia individualizada del presente convenio celebrado entre el Cliente y Onena, por lo que se le recomienda al Cliente que guarde una copia de los presentes Términos y Condiciones para su propio expediente. \n\n En caso de que el Cliente viole lo expresado en estos Términos y Condiciones de Uso, Onena podrá cancelar su uso, así como excluir al Cliente de futuras operaciones, y/o tomar la acción legal que juzgue conveniente para sus intereses.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle3Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Objeto",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text3Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En la Página Web el Cliente tendrá la posibilidad de comprar calzado (en adelante referidos como “Producto”) debido a la finalidad y el contenido de la Página Web, de igual manera el Cliente podrá consultar información acerca del Producto.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle4Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Uso de la página web",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text4Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Onena reconoce ser la única propietaria legal de los derechos de propiedad intelectual, ya sean registrados o no registrados, incluyendo: nombres, logos, imágenes, videos, marcas de servicio, nombre de dominio, proyectos, software, textos y datos incluidos en la Página Web. El contenido mostrado por escrito en esta Página Web pertenece al autor y no puede reproducirse total o parcialmente sin el consentimiento expreso por escrito del mismo. \n\n Para poder hacer uso y ser capaz de hacer una compra dentro de la Página Web, el Cliente deberá tener más de 18 años de edad o en su caso estar accediendo bajo la supervisión y consentimiento de sus padres, de quien posee el ejercicio de la patria potestad, guarda y custodia o bien de tutor legal si es el caso. \n\n Ciertos servicios y las características relacionadas que pueden estar disponibles en la Página Web pueden requerir el registro o suscripción. El Cliente reconoce que, al proporcionar la información de carácter personal, otorga a Onena la autorización señalada en el artículo 109 de la Ley Federal del Derecho de Autor. Si el Cliente decide registrarse o suscribirse a cualquiera de estos servicios o funciones relacionadas, el mismo se compromete a proporcionar información precisa y actualizada acerca de si mismo, y a actualizar rápidamente esa información si hay algún cambio. \n\n Durante el proceso de registro, aceptas recibir correos electrónicos promocionales de forma esporádica de la Página Web, no obstante, posteriormente, puedes optar por no recibir tales correos promocionales haciendo clic en el enlace, en la parte inferior de cualquier correo electrónico promocional o comunicándote con nuestro equipo de atención al cliente al número 55 5383 6372 en CDMX y al 800 6342042 para el resto de la República Mexicana.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle5Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Cuenta del Cliente Regular",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text5Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "El Cliente podrá contar con una cuenta personal ingresando los datos solicitados en la Página Web. La Cuenta del Cliente es personal, única e intransferible. A través de la Cuenta del Cliente, el Cliente podrá acceder a su historial de compras y pedidos realizados, verificar el estado de sus pedidos, acceder a su carrito de compra, tener acceso a promociones y descuentos que de tiempo en tiempo informe Onena, podrá personalizar el contenido que se le presente de la Página Web de acuerdo con sus preferencias, así como utilizar cualquier tipo de funcionalidades que Onena pueda aplicar en el futuro a la Cuenta del Cliente. \n\n Cada Cliente del sitio es el único responsable de mantener las contraseñas y otros identificadores de cuentas seguras. El titular de la cuenta es totalmente responsable de todas las actividades que ocurran bajo su contraseña o cuenta. Por otra parte, el Cliente debe notificar la Empresa de cualquier uso no autorizado de su contraseña o cuenta. De ninguna manera, Onena será responsable, directo o indirectamente, por cualquier pérdida o daño de cualquier tipo incurridos como resultado de la falta de cumplimiento con esta sección por parte del Cliente.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle6Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Protección de datos",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text6Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Los datos recabados por Onena del Cliente durante el uso de la Página Web serán tratados por Onena conforme al Aviso de Privacidad que se incorpora por referencia al documento presente. \n\n La Página Web cuenta con el cumplimiento a la ley de protección de datos personales en posesión de terceros.  \n\n Disponibilidad de artículos \n\n El producto que se ofrece en la Página Web está sujeto a existencia y disponibilidad, por lo que el tiempo de entrega puede variar previo aviso de nuestra parte, o incluso podrá proceder la cancelación de la orden y la devolución de los cargos del Cliente en cuestión. \n\n Si el tiempo de entrega ofrecido no es del agrado para el Cliente, se puede solicitar la cancelación de la orden.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle7Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Compra del Producto",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text7Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Para poder realizar la compra de los productos, el Cliente deberá realizar el pago de los productos seleccionados, impuestos y gastos de envío correspondientes a través de los proveedores de servicios de pagos que Onena ponga a disposición del Cliente en la Página Web. El Cliente solamente podrá comprar productos a través de la Página Web para ser entregados en un domicilio dentro del territorio de los Estados Unidos Mexicanos. \n\n Realizada la compra por el Cliente, mediante la aceptación implícita de los Términos y Condiciones de Uso, Onena enviará un correo electrónico al Cliente informando los detalles de la compra realizada. \n\n Orden de aceptación y precios \n Todos los precios de los Productos publicados en la Página Web incluyen IVA y gastos de envío y son expresados en moneda nacional mexicana MXN. \n\n Si por alguna razón el precio se encuentra en $0.00 o $0.01, favor de entrar en contacto con la central de servicio al cliente de Onena. Por ninguna razón, se entenderá que éstos no tengan precio o se regalen y los pedidos que se realicen bajo esta situación, serán cancelados sin previo aviso.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle8Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Promociones",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text8Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Onena informará a los Clientes suscritos al newsletter, por correo electrónico, todas las promociones y oportunidades futuras, con las respectivas fechas y condiciones. Las promociones tendrán términos y condiciones específicos, y los Clientes interesados en participar serán responsables por leer y entender estos términos y condiciones. \n\n Ninguna promoción es acumulable con otra ",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle9Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Pago",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text9Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "El pago de los productos adquiridos en el Sitio podrá realizarse por medio de cualquier de los medios de pago ofrecidos por el Sitio, siendo estos, entre otros: tarjeta de crédito, tarjeta de débito, PayPal. La lista de los medios de pago ofrecidos puede estar sujeta a modificaciones en cualquier momento sin previo aviso para los Clientes. El pago por medio de tarjeta de crédito o cualquier otro medio de pago online deberá de realizarse en el Sitio. \n\n El número de orden que se asigna al realizar la transacción en el Sitio no implica la aceptación de la transacción. En caso de tener algún problema con su orden, el Cliente será comunicado por correo electrónico o vía telefónica por parte de nuestro equipo de atención al cliente. \n\n Onena enviará la confirmación de compra vía correo electrónico. solo después de la confirmación del pago se liberarán los productos para entrega en la dirección de entrega indicada por el Cliente. \n\n Onena se reserva el derecho de solicitar documentos oficiales a sus Clientes, como medio de validación al proceso de adquisición de productos a través del Sitio. \n\n En caso de desconocimiento por parte de la Institución Bancaria correspondiente a los cargos efectuados por el Cliente que corresponda, a través de tarjeta de crédito, y derivados de operaciones realizadas en el Sitio, Onena se reserva el derecho de iniciar las acciones legales que correspondan y fincar las responsabilidades penales o civiles según sea el caso o de cualquier otra naturaleza, así como de realizar todas aquellas acciones internas que podrán ir desde hacer el cargo nuevamente a la tarjeta de crédito de dicho Cliente hasta la baja definitiva del Cliente en el Sitio, para lo cual no se necesitará autorización previa del Cliente.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle10Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Garantía de productos Onena",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text10Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Todo el calzado Onena cuenta con una garantía por hasta 30 días naturales contra defectos de fabricación a partir que recibes tu producto. Los daños que pueda sufrir la mercancía durante su envío o maniobra de entrega quedan fuera de esta garantía, por lo que pedimos al cliente que revise la mercancía que recibe y firme de conformidad que las condiciones son óptimas. \n  Por otro lado el cliente cuenta hasta con 5 días naturales para realizar la devolución de su producto por insatisfacción, cubriendo los gastos de envío con el prestador de servicio que defina Onena. \n\n Cuando la mercancía presente defectos de fabricación y devolución por insatisfacción, el cliente deberá comunicarse al área de Servicio a Clientes para manifestar su problema y se levantará una orden de servicio. El cliente deberá reportar el defecto de su calzando al teléfono 01 55 53836372 en CDMX y al 01800 634 2042 para el resto de la República. Esta será la única forma de coordinar la atención al cliente. \n\n Onena podrá solicitar al cliente pruebas (fotografías), para la verificación del estado del producto. Con base en estas revisiones se determinará en último término si el calzado tiene defecto original o ha sufrido un uso indebido o daño malintencionado. \n\n Asimismo, verificará que el producto esté limpio y libre de cualquier tipo daño malintencionado o de mal uso. \n\n En el caso de que se apruebe la garantía, Onena se quedará con el producto defectuoso y se le enviará al cliente un producto equivalente de reposición totalmente nuevo. \n\n Si el cliente no está de acuerdo en recibir una versión más actualizada, podrá solicitar el reembolso de su dinero contactando al departamento de Servicio al Cliente. \n\n La cantidad pagada por el Cliente será reembolsada de conformidad con el apartado “Reembolsos” de los presente Términos y Condiciones en caso aplicable.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle11Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Cancelaciones",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text11Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "El Cliente podrá cancelar la compra de Productos realizada a través del Sitio Web, siempre y cuando, los productos adquiridos no hayan salido de las bodegas de Onena. En caso de que los Productos ya hayan sido enviados por Onena (esto implica que el producto ya cuenta con una guía de envío de paquetería), el Cliente no podrá cancelar la compra realizada, y tendrá que seguir el procedimiento presentado en el apartado “Devoluciones” de los presentes Términos y Condiciones. El Cliente recibirá un correo de confirmación de envío cuando el producto esté en tránsito. En caso de que los Productos adquiridos por el Cliente no hayan sido enviados la opción de cancelación estará disponible. En caso de cancelación de la compra realizada por el Cliente la cantidad pagada por el Cliente será reembolsada de conformidad con el apartado “Reembolsos” de los presente Términos y Condiciones.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle11Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Devoluciones",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text11Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Serán considerados como Devoluciones los casos en los que el Cliente haya realizado la compra de algún producto ofrecido en el Sitio Web y el mismo se encuentre en tránsito o incluso si el Cliente ya ha realizado su recepción. \n\n En caso de requerir una Devolución el Cliente deberá de contactar al departamento de Servicio al Cliente Onena por alguno de los siguientes medios: por mail a contacto@danzar.com.mx o por teléfono al 01 55 5383 6372 en CDMX y al 01800 6342042 para el resto de la República Mexicana en un lapso no mayor a 5 días hábiles a partir de que el cliente reciba su calzado. Onena le indicará al Cliente la forma en la que se realizará la recolección del producto, en algunos casos esto puede implicar que el Cliente realice el transporte del producto a alguno de los centros de envío de los prestadores de servicios definidos por Onena. \n\n Una vez que el Cliente realice el envío del producto se le dará aviso en un lapso no mayor a seis días hábiles sobre su Devolución. En caso de que Onena rechace la Devolución, se enviará al Cliente evidencia fotográfica donde se muestren los signos de mal huso o daño malintencionado y el producto será regresado al Cliente. En caso de que sea aceptado, se procederá a regresar el monto pagado por el producto según es indicado en el apartado “Reembolsos” de los presentes Términos y Condiciones.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle12Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Cambios",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text12Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En caso de requerir un cambio de talla o modelo, deberás contactarnos a través de nuestro equipo de atención al cliente en los siguientes números 55 53836372 en CDMX y al 800 634 2042 para el resto de la república, por correo electrónico contacto@danzar.com.mx o vía WhatsApp al 722 631 0808, proporcionarnos tu referencia de compra y nombre del titular que la realizó. Asimismo, deberás indicarnos si deseas realizar un cambio en sucursal, para brindarte las instrucciones o bien, mediante una DEVOLUCIÓN y reembolso en cupón para una nueva compra. \n\n **NOTA**. En el caso de productos adquiridos en promoción solo se podrá realizar cambio con recompra en onena.mx",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle13Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Reembolsos",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text13Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Si el pago fue efectuado por tarjeta de débito o crédito, el reembolso se realizará a través de una devolución de cargo en la misma tarjeta que fue utilizada. En este caso el reembolso se realiza de manera automática a través de la plataforma de pagos de Onena, sin embargo dependiendo de la institución bancaria, este podrá reflejarse hasta 30 días hábiles después de realizado el reembolso. En este caso el tiempo es ajeno y fuera del control de Onena, para aclaraciones el Cliente deberá referirse directamente a la institución bancaria que corresponda a su servicio de cuenta de crédito y/o débito. \n\n Se le reembolsará al Cliente el monto total que haya pagado por los productos devueltos, es decir, el monto reembolsado deberá ser exactamente el que pagó el cliente por el producto a devolver (incluyendo descuentos u otro tipo de comisiones aplicadas en caso de que existiesen). Onena no se hace, ni se hará responsable de los gastos ocasionados por aquellas devoluciones que se produzcan sin respetar los pasos establecidos en el procedimiento presentado en el apartado “Devoluciones” de los presentes Términos y Condiciones.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle14Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Políticas de facturación",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text14Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "El Cliente deberá enviar una solicitud de facturación al centro de atención al cliente de Onena 48 horas hábiles desde cuándo se realizó la compra del Producto. No procederán solicitudes de factura para compras que no entran en este plazo. \n\n Al solicitar la factura será necesario que el Cliente tenga a la mano y proporcione los siguientes requisitos fiscales a Onena: \n * RFC con Homo-clave.\n * Nombre completo o razón social. \n * Domicilio Fiscal completo incluyendo calle, colonia, delegación o municipio, estado y Código Postal. \n * Forma en la que realizó el Pago.  \n * Uso de CFDI \n * Correo electrónico al que llegará la factura. \n\nUna vez emitida la factura correspondiente, Onena no podrá re-facturar o emitir facturas posteriores.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle15Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Responsabilidad",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text15Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "El acceso del Cliente a la Página Web no implica para Onena, la obligación de informar, controlar o, actuación alguna referente a la ausencia o presencia de virus, gusanos o cualquier otro elemento informático dañino. Los Clientes no podrán hacer responsables a Onena, ni exigir indemnización bajo ningún concepto, por los perjuicios resultantes de dificultades técnicas o fallas en los sistemas o en internet. \n\n Hay casos en los cuales una orden de compra puede no ser procesada por circunstancias ajenas a nosotros y las cuales no pueden ser previstas, circunstancias en las cuales interviene la fuerza mayor o el caso fortuito, en ese sentido, la Página Web, informará al Cliente de inmediato el motivo por el cual no fue posible procesar una orden, restituyendo cualquier cantidad cobrada al suscriptor, dejando claro que en este proceso se puede pedir información adicional para completar el proceso de reembolso.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle16Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Propiedad de contenido y uso",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text16Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "La plataforma digital incluye contenido que es propiedad de la compañía y de sus licenciantes. Esto está protegido por derechos de autor y es exclusivo para el uso de la compañía. \n\n El contenido es proporcionado solamente para el uso personal y no comercial. Uso no autorizado del contenido violara los derechos de autor.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle17Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Responsabilidades",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text17Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "La compañía no es responsable por: \n- Daños causados por el uso del programa. \n- Retrasos, pérdidas o errores en la comunicación y mensajes. \n- Robo, corrupción, destrucción de información. \n- No poder proveer un premio por causas extraordinarias y fuera de nuestro alcance. ",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle18Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Distribución “Spam”",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text18Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "La “Referencia” debe distribuir la información de una manera apropiada y de acuerdo a las plataformas en donde se distribuya. \n\n La compañía no tiene la obligación de monitorear el contenido de los mensajes del Cliente. Es responsabilidad del Cliente actuar de acuerdo a la ley anti-spam.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+
+  "rich-text#subtitle19Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Modificaciones a la página web: www.Onena.mx",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text19Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Onena tendrá la libertad de realizar correcciones, adiciones, mejoras o modificaciones al contenido, presentación, información, servicios, áreas, bases de datos y demás elementos de la Página Web en cualquier momento y cuando este lo considere conveniente, sin necesidad de avisar al Cliente, sin que ello dé lugar ni derecho alguno a ninguna reclamación o indemnización a favor del Cliente.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle20Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Vigencia, Terminación y modificación de los términos y condiciones",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text20Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Onena se reserva el derecho a cambiar los presentes Términos y Condiciones sin necesidad de previo aviso al Cliente. Por lo anterior Onena recomienda al Cliente vuelva a leer con regularidad dicho documento para así mantenerse siempre informado sobre eventuales alteraciones. En caso de que el Cliente no acepte los Términos y Condiciones modificados deberá dejar de utilizar la Página Web.",
+      "blockClass": "textIntitucional"
+    }
+  },
+
+  "rich-text#subtitle21Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Políticas de Envíos / Entregas y Términos Logísticos y de Servicio",
+      "blockClass": "subTitleIntitucional"
+    }
+  },
+  "rich-text#text21Terminos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En los siguientes apartados encontrarás las cláusulas de servicio, así como las condiciones de entrega para que recibas tu pedido al realizar una compra con Onena a través de nuestro sitio web. \n\n Onena se reserva el derecho de modificar estas condiciones en cualquier momento y sin estar obligado a dar previo aviso. \n\n Nota importante: todas las fechas y horarios de entrega proporcionados en nuestra página de internet, publicidad, publicaciones de prensa, y correos automáticos son estimaciones y no necesariamente comprometen a Onena a respetar dicha fecha y/o horario estimado. \n\n Nuestro compromiso contigo es realizar tu entrega en el menor tiempo posible y con la mayor calidad y mejor servicio, por ello nuestros sistemas de procesamiento y validación de pagos son lo más ágiles posibles. \n\n Onena se reserva el derecho de modificar las restricciones de cobertura en cualquier momento. \n\n Siempre se te avisará por correo electrónico el momento de envío de tu producto junto con tu número de rastreo que confirmará la fecha de entrega aproximada. \n\n En algunas ciudades consideradas como “Zonas Extendidas” es posible que el envío tome de 7 a 15 días hábiles. Si tu Código Postal llegara a ser el caso, se te indicará vía correo electrónico al enviarte tu guía de rastreo. En ocasiones nuestro prestador de servicio logístico ocupa un tercero para realizar la entrega. \n\n Todas las entregas que realiza nuestro proveedor de servicio logístico, son programadas en un horario de 09:00 AM a 09:00 PM, por lo que no se pueden realizar entregas en horario específico. \n\n En caso de que el cliente no se encuentre en su domicilio a la hora que se realice su entrega se tomará como cumplimiento de garantía la fecha y hora del primer intento. Nuestro proveedor de servicio logístico realizará un máximo de dos intentos adicionales de entrega. En caso de que el cliente no se encuentre disponible en ninguno de estos intentos, se entregará el paquete a la sucursal de nuestro prestador de servicios logístico más cercana a su domicilio. El cliente contará con un máximo de cinco días hábiles para recoger su calzado Onena en dicha sucursal, en el horario de atención específico de la misma. Para ello, deberá presentarse el destinatario con su identificación oficial (mismo que se señala al momento de realizar la compra). Por seguridad, Onena no realizará ningún cambio de nombre. Cuando un cliente retire el paquete de sucursal, Onena no se hará cargo de los costos de manipulación o envío adicionales en los que se pudiera incurrir posterior a la entrega por parte de nuestro proveedor de servicios logísticos. \n\n Los tiempos de entrega pueden variar dependiendo las rutas de nuestros proveedores logísticos, así como de factores externos como son huelgas, marchas o tempestades ambientales. Con tu guía de rastreo podrás consultar con mayor exactitud la fecha de entrega de tu Onena.",
+      "blockClass": "textIntitucional"
+    }
+  }
+}

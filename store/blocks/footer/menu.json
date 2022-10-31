@@ -1,0 +1,515 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass" : "menuProducts1",
+      "width" : "40%"
+    },
+    "children": [
+      "rich-text#tituloDireccion",
+      "rich-text#textoDireccion"
+    ]
+  },
+  "rich-text#tituloDireccion": {
+    "props": {
+      "text": "CONTACTO",
+      "blockClass": "titulo1"
+    },
+    "title" : "Contacto"
+  },
+  "rich-text#textoDireccion": {
+    "props": {
+      "text": "Teléfonos de contacto 55 5542 1197 · 55 5542 1145 \n Horarios de atención al cliente: Lunes a Viernes de 9:00 hrs a 19:00 hrs.\n Sábados de 9:00 hrs a 14:00 hrs.\n contacto@danzar.com.mx",
+      "blockClass": "textoDireccion"
+    },
+    "title" : "Información Contacto"
+  },
+
+  "menu-item#blackfriday": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "BlackFriday",
+        "text": "Black Friday"
+      }
+    }
+  },
+  "menu-item#sale": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    }
+  },
+  "menu-item#personalization": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "Personalization"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo3",
+      "flex-layout.row#redess",
+      "rich-text#linkBlog"
+    ]
+  },
+  "rich-text#linkBlog":{
+    "props": {
+      "text":"[Link]()",
+      "blockClass": "blog",
+      "textAlign": "center"
+    }
+  },
+  "rich-text#titulo3": {
+    "props": {
+      "text": "CATALOGOS \n POLITICA DE PRIVACIDAD",
+      "blockClass": "titulo3"
+    },
+    "title" : "Politica de Privacidad"
+  },
+  "menu-item#terminos-mobile": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos/",
+        "noFollow": true,
+        "tagTitle": "Terminos y Condiciones",
+        "text": "Terminos y Condiciones"
+      }
+    }
+  },
+
+  "menu-item#preguntasFrecuentes-mobile": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntasFrecuentes/",
+        "noFollow": true,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+
+  "menu-item#paginaContenido-mobile": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagina-contenido/",
+        "noFollow": true,
+        "tagTitle": "Página Contenido",
+        "text": "Página Contenido"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bags",
+      "menu-item#backpacks",
+      "menu-item#necessaire"
+    ]
+  },
+
+  "menu-item#bags": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Bags"
+      }
+    }
+  },
+
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Backpacks",
+        "text": "Backpacks"
+      }
+    }
+  },
+
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo2",
+      "menu-item#clothing",
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#catalogo-mobile"
+    ]
+  },
+  "rich-text#titulo2": {
+    "props": {
+      "text": "ENVÍOS Y GARANTÍAS",
+      "blockClass": "titulo2"
+    },
+    "title" : "Envíos y Garantías"
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#sale-mobile",
+      "menu-item#blog-mobile",
+      "social-networks"
+    ]
+  },
+  "menu-item#blog-mobile":{
+    "children":[
+      "rich-text#linkBlog"
+    ]
+  },
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass" : "titleTitleFooterMobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CONTACTO",
+        "text": "CONTACTO"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["rich-text#textoDireccion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "ENVÍOS Y GARANTÍAS"
+      },
+      "blockClass" : "titleTitleFooterMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos-mobile",
+      "menu-item#preguntasFrecuentes-mobile",
+      "menu-item#paginaContenido-mobile"
+
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "CATALOGOS Y POLITICA DE PRIVACIDAD"
+      },
+      "blockClass" : "titleTitleFooterMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos-mobile",
+      "menu-item#preguntasFrecuentes-mobile",
+      "menu-item#paginaContenido-mobile"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos/",
+        "noFollow": true,
+        "tagTitle": "Terminos y Condiciones",
+        "text": "Terminos y Condiciones"
+      }
+    }
+  },
+
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntasFrecuentes/",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagina-contenido/",
+        "noFollow": false,
+        "tagTitle": "Página Contenido",
+        "text": "Página Contenido"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  },
+  "menu-item#catalogo-mobile": {
+    "props": {
+      "id": "menu-item-category-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass" : "titleTitleFooterMobile",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Catálogos",
+        "text": "Catálogos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#catalogos"]
+  },
+  "vtex.menu@2.x:submenu.accordion#catalogos": {
+    "children": ["vtex.menu@2.x:menu#clothing-catalogos"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-catalogos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#cata1",
+      "menu-item#cata2",
+      "menu-item#cata3",
+      "menu-item#cata4"
+    ]
+  },
+  "menu-item#cata1": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.flipsnack.com/BE66E9BBDC9/onena-oi-2021-1/full-view.html",
+        "target": "_blank",
+        "noFollow": false,
+        "tagTitle": "Onena Otoño Invierno 2021",
+        "text": "Onena Otoño Invierno 2021"
+      }
+    }
+  },
+  "menu-item#cata2": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.flipsnack.com/BE66E9BBDC9/juv-oi-2021/full-view.html",
+        "target": "_blank",
+        "noFollow": false,
+        "tagTitle": "Juvé Otoño Invierno 2021",
+        "text": "Juvé Otoño Invierno 2021"
+      }
+    }
+  },
+  "menu-item#cata3": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "target": "_blank",
+        "noFollow": false,
+        "tagTitle": "Clinicus Dama Otoño Invierno 2021",
+        "text": "Clinicus Dama Otoño Invierno 2021"
+      }
+    }
+  },
+  "menu-item#cata4": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.flipsnack.com/BE66E9BBDC9/clinicus-dama-oi-2021-1/full-view.html",
+        "target": "_blank",
+        "noFollow": false,
+        "tagTitle": "Clinicus Caballero Otoño Invierno 2021",
+        "text": "Clinicus Caballero Otoño Invierno 2021"
+      }
+    }
+  }
+}

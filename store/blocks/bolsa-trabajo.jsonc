@@ -1,0 +1,162 @@
+{
+    "store.custom#bolsaTrabajo":{
+      "blocks" : [
+        "responsive-layout.desktop#paginaBolsa",
+        "responsive-layout.tablet#paginaBolsa",
+        "responsive-layout.phone#paginaBolsa"
+      ]
+    },
+  
+    "responsive-layout.desktop#paginaBolsa":{
+      "children":[
+        "rich-text#subtitle5ContenidoPagina",
+        "rich-text#heading5ContenidoPagina",
+        "rich-text#text5ContenidoPagina",
+  
+        "rich-text#heading6ContenidoPagina",
+        "rich-text#text6ContenidoPagina",
+  
+        "rich-text#heading7ContenidoPagina",
+        "rich-text#text7ContenidoPagina",
+
+        "rich-text#contactInfoTitle",
+        "rich-text#contactInfoName",
+        "rich-text#contactInfoPhone",
+        "rich-text#contactInfoMail"
+      ]
+    },
+  
+    "responsive-layout.tablet#paginaBolsa":{
+      "children":[
+        "rich-text#subtitle5ContenidoPagina",
+        "rich-text#heading5ContenidoPagina",
+        "rich-text#text5ContenidoPagina",
+  
+        "rich-text#heading6ContenidoPagina",
+        "rich-text#text6ContenidoPagina",
+  
+        "rich-text#heading7ContenidoPagina",
+        "rich-text#text7ContenidoPagina",
+
+        "rich-text#contactInfoTitle",
+        "rich-text#contactInfoName",
+        "rich-text#contactInfoPhone",
+        "rich-text#contactInfoMail"
+      ]
+    },
+  
+    "responsive-layout.phone#paginaBolsa":{
+      "children":[
+        "rich-text#subtitle5ContenidoPagina",
+        "rich-text#heading5ContenidoPagina",
+        "rich-text#text5ContenidoPagina",
+  
+        "rich-text#heading6ContenidoPagina",
+        "rich-text#text6ContenidoPagina",
+  
+        "rich-text#heading7ContenidoPagina",
+        "rich-text#text7ContenidoPagina",
+
+        "rich-text#contactInfoTitle",
+        "rich-text#contactInfoName",
+        "rich-text#contactInfoPhone",
+        "rich-text#contactInfoMail"
+      ]
+    },
+  
+    "rich-text#subtitle5ContenidoPagina": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "Bolsa de trabajo Onena",
+        "blockClass": "subTitleIntitucional"
+      }
+    },
+  
+    "rich-text#heading5ContenidoPagina": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "Promotoras de Ventas Ciudad de México y Zona conurbada",
+        "blockClass": "headingPagina"
+      }
+    },
+  
+  
+    "rich-text#text5ContenidoPagina": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Requisitos:** \n- Edad: 20 a 45 años. \n- Sexo: Femenino. \n- Escolaridad: Secundaria. \n- Experiencia: 1 año en servicio y atención a clientes, gusto por las ventas, deseable ventas de catálogos y afiliación de clientes. \n\n**Ofrecemos:** Sueldo base $ 6,191.87, prestaciones de ley, fondo de ahorro, atractivas comisiones, contratación directa y de planta.",
+        "blockClass": "textIntitucional"
+      }
+    },
+  
+    "rich-text#heading6ContenidoPagina": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "Vendedor de piso",
+        "blockClass": "headingPagina"
+      }
+    },
+  
+    "rich-text#text6ContenidoPagina": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Requisitos:** \n- Edad: 20 a 45 años. \n- Sexo: Indistinto. \n- Escolaridad: Secundaria. \n\n**Experiencia:** \n 1 año en ventas, atención a clientes, manejo de computación, gusto por las ventas, proactivo. Zonas de trabajo: Zócalo de la Ciudad de México, Tacuba, Tacubaya, Iztapalapa. \n\n**Ofrecemos** \nSueldo base $6,191.87, prestaciones de ley, fondo de ahorro, atractivas comisiones, capacitación, crecimiento profesional, excelente ambiente de trabajo.",
+        "blockClass": "textIntitucional"
+      }
+    },
+  
+    "rich-text#heading7ContenidoPagina": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "Auxiliares de almacén",
+        "blockClass": "headingPagina"
+      }
+    },
+  
+    "rich-text#text7ContenidoPagina": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**Requisitos:** \n- Edad: 19 a 25 años. \n- Sexo: Indistinto. \n- Escolaridad: Secundaria. \n\n**Experiencia:** 1 año de experiencia en almacén, entradas, salidas, traspasos, manejo de computación, activo, si no tiene experiencia capacitamos. \n\n**Ofrecemos**: Sueldo base $5,512.00 prestaciones de ley, fondo de ahorro, capacitación, crecimiento profesional, excelente ambiente de trabajo. Zona de trabajo Zócalo de la Ciudad de México, Iztapalapa, Azcapotzalco.",
+        "blockClass": "textIntitucional"
+      }
+    },
+    "rich-text#contactInfoTitle":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "Contacto",
+            "blockClass": "subTitleIntitucional"
+        }
+      },
+    "rich-text#contactInfoName":{
+        "props": {
+          "text":"Raquel Rivera",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "textIntitucional"
+        }
+    },
+    "rich-text#contactInfoPhone":{
+        "props": {
+            "text":"+52 1 722 299 1824",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "textIntitucional"
+        }
+      }, 
+    "rich-text#contactInfoMail":{
+        "props": {
+            "text":"rhjaima@danzar.com.mx",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "textIntitucional"
+        }
+    }
+  }

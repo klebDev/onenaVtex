@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#border": {
+      "children": [
+        "flex-layout.col#border1"
+      ],
+      "props": {
+        "blockClass": "border"
+      }
+    },
+  
+    "flex-layout.col#border1": {
+      "children": [
+        "image#border1"
+      ]
+    },
+    "image#border1": {
+      "props": {
+        "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+        "maxHeight": "0px"
+      }
+    }
+} 

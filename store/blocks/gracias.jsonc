@@ -1,0 +1,48 @@
+{
+    "store.custom#gracias": {
+      "blocks": [
+        "flex-layout.row#gracias"
+      ]
+    },
+  
+    "flex-layout.row#gracias": {
+      "children": [
+        "flex-layout.col#text-gracias",
+        "image#mobile-phone"
+      ]
+    },
+  
+    "flex-layout.col#text-gracias": {
+      "children": [
+        "rich-text#title-gracias",
+        "rich-text#text-gracias"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#title-gracias": {
+      "props": {
+        "text":
+        "## ¡Gracias por registrarte!",
+        "blockClass": "title-gracias"
+      }
+    },
+    "rich-text#text-gracias": {
+        "props": {
+          "text": "### Pronto nos pondremos en contacto contigo",
+          "blockClass": "text-gracias"
+        }
+    },
+    "image#mobile-phone": {
+      "props": {
+        "src": "assets/nosotros-cat.png",
+        "maxHeight": "",
+        "maxWidth": "",
+        "blockClass": "storePrint"
+      }
+    }
+  }
+  

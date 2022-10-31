@@ -1,0 +1,183 @@
+{
+    "slider-layout#slidercategoriasMovilCatalogo": {
+        "title": "Contenido Slider Cats",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "blockClass": "slidercategoriasMovil",
+          "showPaginationDots" : "never",
+          "usePagination" : "false",
+          "width" : "10%"
+        },
+        "children": [
+          "flex-layout.col#cat1Catalogo",
+          "flex-layout.col#cat2Catalogo",
+          "flex-layout.col#cat3Catalogo",
+          "flex-layout.col#cat4Catalogo",
+          "flex-layout.col#cat5Catalogo"
+        ]
+      },
+      "flex-layout.col#cat1Catalogo": {
+        "title": "Categoría 1",
+        "children": [
+          "image#cat1Catalogo",
+          "rich-text#cat1Catalogo"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat1Catalogo": {
+        "title": "Imagen cat1",
+        "props": {
+          "height": 300,
+          "src": "/arquivos/01_Onena-OI-2021.jpg",
+          "link": {
+            "url": "https://drive.google.com/file/d/1TeKZY0Awy5BmbjqtSQWWfu85ZbOoPNfp/view?usp=sharing",
+            "openNewTab": true
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat1Catalogo": {
+        "title": "Texto cat 1",
+        "props": {
+          "text": "Onena Otoño Invierno 2021",
+          "textAlignment": "center",
+          "textPosition": "center",
+           "blockClass" : "textCategoria"
+        }
+      },
+    
+      "flex-layout.col#cat2Catalogo": {
+        "title": "Categoría 2",
+        "children": [
+          "image#cat2Catalogo",
+          "rich-text#cat2Catalogo"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat2Catalogo": {
+        "title": "Imagen cat2",
+        "props": {
+          "height": 300,
+          "src": "/arquivos/01_Juve-OI-2021.jpg",
+          "link": {
+            "url": "https://drive.google.com/file/d/1jN4ROjHiQkkowo1RMw4r93d_NWE74dsL/view",
+            "openNewTab": true
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat2Catalogo": {
+        "title": "Texto cat 2",
+        "props": {
+          "text": "Juvé Otoño Invierno 2021",
+          "textAlignment": "center",
+          "textPosition": "center",
+           "blockClass" : "textCategoria"
+        }
+      },
+    
+      "flex-layout.col#cat3Catalogo": {
+        "title": "Categoría 3",
+        "children": [
+          "image#cat3Catalogo",
+          "rich-text#cat3Catalogo"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat3Catalogo": {
+        "title": "Imagen cat3",
+        "props": {
+          "height": 300,
+          "src": "/arquivos/04_CLINICUS-Dama-OI-2021.jpg",
+          "link": {
+            "url": "https://drive.google.com/file/d/18FL0Qm45fb5-KzaAEj9604H0nb1qTkvw/view",
+            "openNewTab": true
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat3Catalogo": {
+        "title": "Texto cat 3",
+        "props": {
+          "text": "Clinicus Dama Otoño Invierno 2021",
+          "textAlignment": "center",
+          "textPosition": "center",
+           "blockClass" : "textCategoria"
+        }
+      },
+      "flex-layout.col#cat4Catalogo": {
+        "title": "Categoría 4",
+        "children": [
+          "image#cat4Catalogo",
+          "rich-text#cat4Catalogo"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "paddingLeft": 5,
+          "paddingRight": 5
+        }
+      },
+      "image#cat4Catalogo": {
+        "title": "Imagen cat4",
+        "props": {
+          "height": 300,
+          "src": "/arquivos/caba-clin.jpg",
+          "link": {
+            "url": "https://drive.google.com/file/d/1GkrJ6ZB8sItQSYFf0gHnARWDBSzKePZq/view",
+            "openNewTab": true
+          },
+          "blockClass": "imgcats"
+        }
+      },
+      "rich-text#cat4Catalogo": {
+        "title": "Texto cat 4",
+        "props": {
+          "text": "Clinicus Caballero Otoño Invierno 2021",
+          "textAlignment": "center",
+          "textPosition": "center",
+           "blockClass" : "textCategoria"
+        }
+      },
+      "flex-layout.col#cat5Catalogo": {
+        "title": "Categoría 5",
+        "children": [
+          "image#cat5Catalogo"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "preventVerticalStretch" : false,
+          "paddingLeft": 0,
+          "paddingRight": 0
+        }
+      },
+    
+      "image#cat5Catalogo": {
+        "title": "Imagen cat4",
+        "props": {
+  
+          "src": "/arquivos/ionic-ios-arrow.svg",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "imgArrowMegaMenu"
+        }
+      }
+}
