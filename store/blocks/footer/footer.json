@@ -141,7 +141,8 @@
     "image#metod2": {
       "props": {
         "src": "/arquivos/powered_by_vtex.svg",
-        "blockClass" : "metod2"
+        "blockClass" : "metod2",
+        "maxHeight": 34
       },
       "title" : "Logo Vtex"
   },

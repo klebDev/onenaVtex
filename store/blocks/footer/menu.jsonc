@@ -227,6 +227,7 @@
     },
     "children": [
       "menu-item#clothing-mobile",
+      "menu-item#catalogo-mobile",
       "menu-item#sale-mobile",
       "menu-item#blog-mobile",
       "social-networks"
@@ -442,10 +443,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#cata1",
-      "menu-item#cata2",
-      "menu-item#cata3",
-      "menu-item#cata4"
+      "menu-item#cata1"//,
+      //"menu-item#cata2",
+      //"menu-item#cata3",
+      //"menu-item#cata4"
     ]
   },
   "menu-item#cata1": {

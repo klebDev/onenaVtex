@@ -29,8 +29,8 @@
 },
 "flex-layout.row#catalogos":{  
     "children":[
-        "slider-layout#catalogos"
-        //"flex-layout.col#colcat1",
+        //slider-layout#catalogos"
+        "flex-layout.col#colcat1"
         //"flex-layout.col#colcat2",
         //"flex-layout.col#colcat3",
         //"flex-layout.col#colcat4"
@@ -79,7 +79,8 @@
     "children":[
         "image#catalogo1"
     ],"props":{
-        "blockClass":"imgcolcat"
+        "blockClass":"imgcolcat",
+        "paddingTop": 6
     }
 },
 "image#catalogo1":{
